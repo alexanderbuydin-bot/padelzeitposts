@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#eef0f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)">
+  <title>Padelzeit · Welche Posts gehen raus?</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="brand">
+        <span class="brand__mark" aria-hidden="true">PZ</span>
+        <span class="brand__name">Padelzeit</span>
+      </div>
+      <button class="me" id="me" type="button" aria-label="Namen ändern">
+        <span class="me__avatar" id="me-avatar" aria-hidden="true">?</span>
+        <span class="me__name" id="me-name">Name eingeben</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="intro">
+      <h1>Welche Posts gehen raus?</h1>
+      <p>Durch die Slides wischen, dann <b>Posten</b> oder <b>Nicht posten</b> tippen. Ein kurzer Kommentar hilft.</p>
+      <div class="progress">
+        <div class="progress__bar"><span id="progress-fill"></span></div>
+        <span class="progress__text" id="progress-text"></span>
+      </div>
+    </section>
+    <div class="grid" id="grid"></div>
+    <p class="loading" id="loading">Lade Posts …</p>
+  </main>
+
+  <div class="sheet" id="name-sheet" hidden>
+    <form class="sheet__card" id="name-form" autocomplete="off">
+      <h2>Wie heißt du?</h2>
+      <p>Damit alle sehen, wer abgestimmt und kommentiert hat.</p>
+      <input class="sheet__input" id="name-input" maxlength="40" placeholder="Dein Vorname" aria-label="Dein Vorname" enterkeyhint="go">
+      <button class="btn btn--primary" type="submit">Los geht’s</button>
+      <button class="btn btn--ghost" type="button" id="name-skip">Erst mal nur ansehen</button>
+    </form>
+  </div>
+
+  <div class="viewer" id="viewer" hidden role="dialog" aria-modal="true" aria-label="Slides in groß">
+    <div class="viewer__bar">
+      <span id="viewer-title" class="viewer__title"></span>
+      <span id="viewer-count" class="viewer__count"></span>
+      <button class="viewer__close" id="viewer-close" type="button" aria-label="Schließen">✕</button>
+    </div>
+    <div class="viewer__track" id="viewer-track"></div>
+    <button class="viewer__nav viewer__nav--prev" id="viewer-prev" type="button" aria-label="Vorherige Slide">‹</button>
+    <button class="viewer__nav viewer__nav--next" id="viewer-next" type="button" aria-label="Nächste Slide">›</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

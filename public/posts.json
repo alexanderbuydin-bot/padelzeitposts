@@ -1,0 +1,637 @@
+{
+ "posts": [
+  {
+   "id": "your-neighbours-hate-this-sound",
+   "title": "Your neighbours hate this sound",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/your-neighbours-hate-this-sound/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-neighbours-hate-this-sound/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-neighbours-hate-this-sound/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-neighbours-hate-this-sound/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-neighbours-hate-this-sound/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-neighbours-hate-this-sound/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-neighbours-hate-this-sound/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-neighbours-hate-this-sound/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-neighbours-hate-this-sound/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-neighbours-hate-this-sound/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-neighbours-hate-this-sound/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-neighbours-hate-this-sound/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Your neighbours hate this sound. 🔊\nPop. Pop. Pop. That's padel – and not everyone loves it.\n\nWhy so loud? A padel racket has no strings – it's a hard paddle. Every hit and every bounce off the glass goes \"pop\".\n\n🇳🇱 Netherlands, 2023: after dozens of lawsuits, a new guideline says new courts should be at least 100 m from homes.\n🇬🇧 England, June 2026: a court called padel noise \"explosive and unpredictable\". The club had to pay £48,500 in legal costs – and a noise barrier could cost over £65,000 more.\n🇮🇩 Jakarta plans to limit playing hours near homes. 🇿🇦 In Durban, residents are preparing legal action.\n\nPlaying the 22:00 slot? Celebrate quietly. 🤫\nDoes your club have a curfew? 👇\n\n#padel #padellife #padelnews #padelberlin #padelzeit",
+    "de": "Deine Nachbarn hassen dieses Geräusch. 🔊\nPlopp. Plopp. Plopp. Das ist Padel – und nicht alle lieben es.\n\nWarum so laut? Ein Padelschläger hat keine Saiten – er ist ein hartes Paddel. Jeder Schlag und jeder Abpraller von der Glaswand macht „Plopp\".\n\n🇳🇱 Niederlande, 2023: Nach Dutzenden Klagen gilt eine neue Richtlinie – neue Plätze mindestens 100 m von Wohnhäusern entfernt.\n🇬🇧 England, Juni 2026: Ein Gericht nannte den Padel-Lärm „explosiv und unberechenbar\". Der Club musste 48.500 £ Verfahrenskosten zahlen – eine Lärmschutzwand könnte noch einmal über 65.000 £ kosten.\n🇮🇩 Jakarta will die Spielzeiten in Wohngebieten begrenzen. 🇿🇦 In Durban bereiten Anwohner eine Klage vor.\n\nSpielst du um 22 Uhr? Dann jubel leise. 🤫\nHat dein Club eine Sperrstunde? 👇\n\n#padel #padellife #padelnews #padelberlin #padelzeit"
+   },
+   "sources": [
+    "https://www.dutchnews.nl/2023/01/agreement-reached-to-offset-padel-noise-problems",
+    "https://localgovernmentlawyer.co.uk/planning/401-planning-news/100883-magistrates-court-upholds-nuisance-finding-over-explosive-noises-from-padel-courts",
+    "https://en.antaranews.com/news/405510/jakarta-governor-moves-to-limit-padel-court-hours-in-residential-areas",
+    "https://thepost.co.za/news/2026-05-18-legal-action-durban-residents-fight-back-against-noise-from-new-padel-courts/"
+   ]
+  },
+  {
+   "id": "tap-the-racket",
+   "title": "Tap the racket",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/tap-the-racket/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/tap-the-racket/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/tap-the-racket/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/tap-the-racket/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/tap-the-racket/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/tap-the-racket/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/tap-the-racket/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/tap-the-racket/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/tap-the-racket/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/tap-the-racket/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/tap-the-racket/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/tap-the-racket/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Tap the racket. Science says so. 🤝🎾\n\nIn 2010, researchers at UC Berkeley watched 294 NBA players from all 30 teams and counted every touch in one early-season game: fist bumps, high fives, chest bumps, hugs, huddles – 12 kinds in total.\n\nThe result: teams that touched more early in the season played better later – even after accounting for player status, expectations and early performance.\nThe touchiest teams? The Celtics and the Lakers. The Lakers won the title that season. 🏆\n\nIn padel you get the same chance after every point: tap rackets with your partner. Win or lose. Especially after the bad ones.\n\nTag your partner 👇\n\n#padel #padelscience #padellife #padelberlin #padelzeit",
+    "de": "Schläger antippen. Die Wissenschaft sagt: Es hilft. 🤝🎾\n\n2010 haben Forscher der UC Berkeley 294 NBA-Spieler aus allen 30 Teams beobachtet und in einem Spiel zu Saisonbeginn jede Berührung gezählt: Faust-Checks, High Fives, Brust-Checks, Umarmungen, Teamkreise – 12 Arten insgesamt.\n\nDas Ergebnis: Teams, die sich am Saisonanfang öfter berührten, spielten später besser – auch wenn man Status, Erwartungen und frühe Leistung herausrechnet.\nDie berührungsfreudigsten Teams? Die Celtics und die Lakers. Die Lakers wurden in dieser Saison Meister. 🏆\n\nIm Padel hast du nach jedem Punkt dieselbe Chance: Schläger mit dem Partner antippen. Ob gewonnen oder verloren. Gerade nach den schlechten Punkten.\n\nMarkier deinen Partner 👇\n\n#padel #padelscience #padellife #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Kraus, Huang & Keltner (2010): Tactile communication, cooperation, and performance: an ethological study of the NBA. Emotion 10(5), 745–749. https://pubmed.ncbi.nlm.nih.gov/21038960/",
+    "https://www.nbcnews.com/news/amp/wbna40156146 (Celtics und Lakers am berührungsfreudigsten)"
+   ]
+  },
+  {
+   "id": "your-court-is-blue",
+   "title": "Your court is blue",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/your-court-is-blue/01.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/your-court-is-blue/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-court-is-blue/02.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/your-court-is-blue/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-court-is-blue/03.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/your-court-is-blue/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-court-is-blue/04.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/your-court-is-blue/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-court-is-blue/05.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/your-court-is-blue/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-court-is-blue/06.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/your-court-is-blue/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Your court is blue. Blame television. Again. 📺💙\nRemember our post about the yellow ball? Same story.\n\nPadel courts used to be green – green artificial grass was the classic.\nTennis went blue first: in 2005 the US Open gave its courts blue centres to make the ball easier to see, and in 2008 the Australian Open swapped green for blue.\nThen the pro padel tour went blue too: a yellow ball on a blue court is the strongest contrast – for players and for TV.\nBonus: many players find blue less tiring for the eyes under floodlights.\n\nBlue or green – what colour is your court? 👇\n\n#padel #padelhistory #padelfacts #padelberlin #padelzeit",
+    "de": "Dein Court ist blau. Schuld ist das Fernsehen. Schon wieder. 📺💙\nErinnerst du dich an unseren Post über den gelben Ball? Gleiche Geschichte.\n\nPadelplätze waren früher grün – grüner Kunstrasen war der Klassiker.\nDas Tennis war zuerst blau: 2005 bekamen die Plätze der US Open blaue Innenfelder, damit man den Ball besser sieht, und 2008 tauschten die Australian Open Grün gegen Blau.\nDann wurde auch die Padel-Profitour blau: Gelber Ball auf blauem Grund ist der stärkste Kontrast – für Spieler und fürs Fernsehen.\nBonus: Viele Spieler finden Blau unter Flutlicht angenehmer für die Augen.\n\nBlau oder grün – welche Farbe hat dein Court? 👇\n\n#padel #padelgeschichte #padelfakten #padelberlin #padelzeit"
+   },
+   "sources": [
+    "https://padel-magazine.co.uk/pourquoi-les-moquettes-vertes-disparaissent-elles-au-profit-du-bleu/ (World Padel Tour: Blau wegen Sichtbarkeit, auch im TV)",
+    "https://www.mentalfloss.com/sports/real-reason-us-open-changed-courts-green-blue (US Open 2005)",
+    "https://www.topendsports.com/events/tennis-grand-slam/australian-open/index.htm (Australian Open 2008: Plexicushion, Blau)"
+   ]
+  },
+  {
+   "id": "bankers-left-golf-for-padel",
+   "title": "Bankers left golf for padel",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/bankers-left-golf-for-padel/01.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/bankers-left-golf-for-padel/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/bankers-left-golf-for-padel/02.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/bankers-left-golf-for-padel/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/bankers-left-golf-for-padel/03.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/bankers-left-golf-for-padel/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/bankers-left-golf-for-padel/04.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/bankers-left-golf-for-padel/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/bankers-left-golf-for-padel/05.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/bankers-left-golf-for-padel/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/bankers-left-golf-for-padel/06.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/bankers-left-golf-for-padel/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Bankers left golf for padel. ⛳➡️🎾\nFor decades, deals were made on the golf course. Now the boardroom has glass walls.\n\n⏱️ A typical round of golf takes about 4 hours. A padel match: 90 minutes.\n🗣️ Doubles means talking – points are short, so there's time to chat between rallies.\n🤝 It's easy to start, so the boss and the intern can play on the same court.\n🌴 Luxury resorts and private clubs are adding padel next to the golf.\n\nEver closed a deal on court? 👇\n\n#padel #padelbusiness #padellife #padelberlin #padelzeit",
+    "de": "Banker haben Golf gegen Padel getauscht. ⛳➡️🎾\nJahrzehntelang wurden Deals auf dem Golfplatz gemacht. Jetzt hat der Konferenzraum Glaswände.\n\n⏱️ Eine Runde Golf dauert meist rund 4 Stunden. Ein Padel-Match: 90 Minuten.\n🗣️ Doppel heißt reden – die Punkte sind kurz, dazwischen bleibt Zeit fürs Gespräch.\n🤝 Der Einstieg ist leicht, also spielen Chefin und Praktikant auf demselben Court.\n🌴 Luxusresorts und private Clubs bauen Padelplätze direkt neben den Golfplatz.\n\nSchon mal einen Deal auf dem Court abgeschlossen? 👇\n\n#padel #padelbusiness #padellife #padelberlin #padelzeit"
+   },
+   "sources": [
+    "https://elitetraveler.com/lifestyle/padel-luxury-boom-business-culture (Elite Traveler, 02.07.2026)",
+    "https://spearswms.com/luxury/health-wellness/padel-networking-sport-tennis-golf-david-beckham/",
+    "https://usga.org/content/dam/usga/images/pace of play/trackingresearch.pdf (USGA: typische Runde unter der Woche 4 Stunden)"
+   ]
+  },
+  {
+   "id": "a-point-lasts-11-seconds",
+   "title": "A point lasts 11 seconds",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/a-point-lasts-11-seconds/01.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/a-point-lasts-11-seconds/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/a-point-lasts-11-seconds/02.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/a-point-lasts-11-seconds/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/a-point-lasts-11-seconds/03.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/a-point-lasts-11-seconds/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/a-point-lasts-11-seconds/04.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/a-point-lasts-11-seconds/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/a-point-lasts-11-seconds/05.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/a-point-lasts-11-seconds/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/a-point-lasts-11-seconds/06.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/a-point-lasts-11-seconds/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "A padel point lasts 11 seconds. ⏱️ So why are you so tired?\n\n⏱️ Average rally in pro finals: 11.6 s for men, 18.7 s for women.\n🎾 Pros hit 8–10 shots per point.\n👟 About 11 m of running per point – almost 3 km per match.\n😮‍💨 The ball is in play only about a third of the time (30–35 %). The rest: walking, towels, talking.\n\nShort bursts, short breaks: padel is interval training in disguise. 💪\nWhat's your longest rally? 👇\n\n#padel #padelscience #padelfitness #padelberlin #padelzeit",
+    "de": "Ein Padel-Punkt dauert 11 Sekunden. ⏱️ Warum bist du dann so kaputt?\n\n⏱️ Durchschnittlicher Ballwechsel in Profi-Finals: 11,6 s bei den Männern, 18,7 s bei den Frauen.\n🎾 Profis schlagen 8–10 Bälle pro Punkt.\n👟 Rund 11 m Laufweg pro Punkt – fast 3 km pro Match.\n😮‍💨 Der Ball ist nur etwa ein Drittel der Zeit im Spiel (30–35 %). Der Rest: gehen, Handtuch, reden.\n\nKurze Sprints, kurze Pausen: Padel ist verstecktes Intervalltraining. 💪\nWie lang war dein längster Ballwechsel? 👇\n\n#padel #padelscience #padelfitness #padelberlin #padelzeit"
+   },
+   "sources": [
+    "https://journal.aspetar.com/en/journals/volume-12-targeted-topic-sports-medicine-in-padel/performance-in-padel (8–10 Schläge pro Punkt, 11 m pro Punkt, ca. 2.900 m pro Match, 30–35 % reine Spielzeit)",
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11359520/ (zitiert Sánchez-Alcaraz 2014: Ballwechsel 11,6 s Männer / 18,7 s Frauen, Padel-Pro-Tour-Finals)"
+   ]
+  },
+  {
+   "id": "autumn-changed-your-game",
+   "title": "Autumn changed your game",
+   "isNew": false,
+   "slides": [
+    {
+     "src": "posts/autumn-changed-your-game/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/autumn-changed-your-game/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/autumn-changed-your-game/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/autumn-changed-your-game/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/autumn-changed-your-game/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/autumn-changed-your-game/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/autumn-changed-your-game/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/autumn-changed-your-game/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/autumn-changed-your-game/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/autumn-changed-your-game/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/autumn-changed-your-game/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/autumn-changed-your-game/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Autumn is here. Your outdoor game didn't get worse — the conditions did. 🍂\n\n1️⃣ The ball. Cold air drops the pressure inside. It bounces lower and slower, rallies get longer, and your winners stop being winners.\n2️⃣ The racket. The foam core stiffens in the cold. Less pop, a harsher feel on every hit.\n3️⃣ The court. Wet glass doesn't send the ball back, it lets it slide down. And on wet turf your controlled slide becomes one you can't stop.\n4️⃣ The light. From 25 October the sun sets before 17:00. The after-work slot is now a floodlight slot.\n\nPlay the season, not against it:\n🎾 Spare balls in your jacket pocket — body heat keeps them alive\n🎾 Open a fresh can\n🎾 Warm up longer — you and your racket\n🎾 Don't leave your racket in the car overnight\n🎾 Short steps on wet turf, no sliding\n\nWho's still playing outside? 👇\n\n#padel #padelberlin #outdoorpadel #padeltips #padellife #padelzeit",
+    "de": "Der Herbst ist da. Dein Outdoor-Padel ist nicht schlechter geworden – die Bedingungen haben sich geändert. 🍂\n\n1️⃣ Der Ball. Kalte Luft senkt den Druck im Ball. Er springt flacher und langsamer ab, die Ballwechsel werden länger, und deine Winner sind plötzlich keine mehr.\n2️⃣ Der Schläger. Der Schaumkern wird in der Kälte härter. Weniger Power, ein härteres Gefühl bei jedem Schlag.\n3️⃣ Der Court. Nasses Glas spielt den Ball nicht zurück, es lässt ihn runterrutschen. Und auf nassem Kunstrasen wird aus deinem kontrollierten Rutschen eins, das du nicht mehr stoppst.\n4️⃣ Das Licht. Ab dem 25. Oktober geht die Sonne vor 17 Uhr unter. Der Feierabend-Slot läuft jetzt unter Flutlicht.\n\nSo spielst du mit der Saison:\n🎾 Ersatzbälle in die Jackentasche – Körperwärme hält sie lebendig\n🎾 Eine frische Dose aufmachen\n🎾 Länger aufwärmen – dich und den Schläger\n🎾 Den Schläger nicht über Nacht im Auto lassen\n🎾 Auf nassem Belag kurze Schritte, nicht rutschen\n\nWer spielt noch draußen? 👇\n\n#padel #padelberlin #outdoorpadel #padeltipps #padellife #padelzeit"
+   },
+   "sources": []
+  },
+  {
+   "id": "the-secret-language-behind-your-back",
+   "title": "The secret language behind your back",
+   "isNew": false,
+   "slides": [
+    {
+     "src": "posts/the-secret-language-behind-your-back/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/the-secret-language-behind-your-back/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/the-secret-language-behind-your-back/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/the-secret-language-behind-your-back/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/the-secret-language-behind-your-back/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/the-secret-language-behind-your-back/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/the-secret-language-behind-your-back/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/the-secret-language-behind-your-back/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/the-secret-language-behind-your-back/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/the-secret-language-behind-your-back/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/the-secret-language-behind-your-back/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/the-secret-language-behind-your-back/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Before every serve, your partner at the net is talking to you. Your opponents never hear a word. 🤫\n\nThe net player holds one hand behind their back — visible to the server, hidden from the other side.\n\n✊ Fist — I stay. No poach, we both hold our side.\n🖐️ Open hand — I cross. I poach the return, you switch to my side.\n☝️ One finger — serve to the T, down the middle.\n✌️ Two fingers — serve wide, into the side glass.\n\nThe server answers with a nod. That's the whole plan for the next point — in two seconds.\n\nIt's a team code, not an official rule. Agree on yours before the match.\n\nDo you play with signals? 👇\n\n#padel #padeltactics #padeltips #padelberlin #padellife #padelzeit",
+    "de": "Vor jedem Aufschlag redet dein Partner am Netz mit dir. Deine Gegner hören kein Wort. 🤫\n\nDer Netzspieler hält eine Hand hinter den Rücken – sichtbar für den Aufschläger, unsichtbar für die andere Seite.\n\n✊ Faust – ich bleibe. Wir halten beide unsere Seite.\n🖐️ Offene Hand – ich kreuze. Ich fange den Return am Netz ab, du wechselst auf meine Seite.\n☝️ Ein Finger – Aufschlag aufs T, durch die Mitte.\n✌️ Zwei Finger – Aufschlag nach außen, in die Seitenscheibe.\n\nDer Aufschläger antwortet mit einem Nicken. Das ist der ganze Plan für den nächsten Punkt – in zwei Sekunden.\n\nDas ist ein Team-Code, keine offizielle Regel. Macht euren vor dem Match aus.\n\nSpielt ihr mit Zeichen? 👇\n\n#padel #padeltaktik #padeltipps #padelberlin #padellife #padelzeit"
+   },
+   "sources": []
+  },
+  {
+   "id": "lies-every-padel-player-tells",
+   "title": "Lies every padel player tells",
+   "isNew": false,
+   "slides": [
+    {
+     "src": "posts/lies-every-padel-player-tells/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/lies-every-padel-player-tells/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/lies-every-padel-player-tells/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/lies-every-padel-player-tells/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/lies-every-padel-player-tells/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/lies-every-padel-player-tells/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/06_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/lies-every-padel-player-tells/07.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/lies-every-padel-player-tells/07_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "We've all said at least three of these. Some of us said all six last week. 🤥\n\n1️⃣ \"I'm a 4.0.\" — Checked once. Two years ago. On a very good day.\n2️⃣ \"That was out.\" — It was on the line. Everyone saw it.\n3️⃣ \"Last game, then we go.\" — Said at 21:00. Left at 23:40.\n4️⃣ \"It's the racket.\" — Third new racket this year. Same backhand.\n5️⃣ \"I'm not competitive.\" — Still talks about one point from March.\n6️⃣ \"I'll take a break this winter.\" — Indoor court booked until April.\n\nWhich one is yours? Be honest 👇\nTag the partner who says all six.\n\n#padel #padellife #padelhumor #padelberlin #padelfriends #padelzeit",
+    "de": "Drei davon hat jeder schon gesagt. Manche von uns alle sechs – letzte Woche. 🤥\n\n1️⃣ „Ich bin eine 4.0.\" – Einmal nachgeschaut. Vor zwei Jahren. An einem sehr guten Tag.\n2️⃣ „Der war aus.\" – Er war auf der Linie. Alle haben's gesehen.\n3️⃣ „Letztes Spiel, dann gehen wir.\" – Gesagt um 21:00. Gegangen um 23:40.\n4️⃣ „Liegt am Schläger.\" – Dritter neuer Schläger dieses Jahr. Gleiche Rückhand.\n5️⃣ „Ich bin gar nicht ehrgeizig.\" – Redet immer noch über diesen einen Punkt im März.\n6️⃣ „Diesen Winter mache ich Pause.\" – Indoor-Court gebucht bis April.\n\nWelcher ist deiner? Sei ehrlich 👇\nMarkier den Partner, der alle sechs sagt.\n\n#padel #padellife #padelhumor #padelberlin #padelfreunde #padelzeit"
+   },
+   "sources": []
+  },
+  {
+   "id": "padel-partner-red-flags",
+   "title": "Padel partner red flags",
+   "isNew": false,
+   "slides": [
+    {
+     "src": "posts/padel-partner-red-flags/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/padel-partner-red-flags/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/padel-partner-red-flags/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/padel-partner-red-flags/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/padel-partner-red-flags/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/padel-partner-red-flags/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/06_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/padel-partner-red-flags/07.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/padel-partner-red-flags/07_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Every padel player has had this partner. Some of us ARE this partner. 🚩\n\n🚩 Shouts \"Mine!\" — and doesn't move.\n🚩 \"I play better on the left.\" Has never played on the left.\n🚩 Gives you tips. During the point.\n🚩 Says sorry to the ball. Not to you.\n🚩 Takes every ball in the middle. Even yours.\n\nTag yours. Or is it you? 👇\n(We won't tell.)\n\n#padel #padelhumor #padellife #padelberlin #padelpartner #padelzeit",
+    "de": "Jeder Padel-Spieler hatte schon so einen Partner. Manche von uns SIND dieser Partner. 🚩\n\n🚩 Ruft „Meiner!\" – und bewegt sich nicht.\n🚩 „Links spiele ich besser.\" Hat noch nie links gespielt.\n🚩 Gibt dir Tipps. Mitten im Ballwechsel.\n🚩 Entschuldigt sich beim Ball. Nicht bei dir.\n🚩 Nimmt jeden Ball in der Mitte. Auch deinen.\n\nMarkier deinen. Oder bist du es selbst? 👇\n(Wir verraten nichts.)\n\n#padel #padelhumor #padellife #padelberlin #padelpartner #padelzeit"
+   },
+   "sources": []
+  },
+  {
+   "id": "41-hours-of-padel",
+   "title": "41 hours of padel",
+   "isNew": false,
+   "slides": [
+    {
+     "src": "posts/41-hours-of-padel/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/41-hours-of-padel/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/41-hours-of-padel/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/41-hours-of-padel/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/41-hours-of-padel/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/41-hours-of-padel/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/41-hours-of-padel/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/41-hours-of-padel/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/41-hours-of-padel/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/41-hours-of-padel/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/41-hours-of-padel/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/41-hours-of-padel/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "41 hours of padel. Without leaving the court. 🎾\n\nIn June 2026, four Spanish players – Brais Rey, Martín Domínguez, Jorge Bigotes and Pablo Santos – played for 41 hours straight at the Mais que Auga club near Vigo.\n\n⏱️ 100 sets. Final score: 57 to 43.\n🦶 One of them finished barefoot to ease the pain in his feet.\n❤️ For every 2 minutes on court they raised €1 – €1,230 for the Spanish Cancer Association.\n\nThe official Guinness record is 40 hours (Blackpool, 2025). Guinness still has to confirm the new 41. And the record keeps falling: over 31 hours in 2023, 40 in 2025, 41 in 2026.\n\nWhat's the longest you've ever played? 👇\n\n#padel #padelworld #worldrecord #padellife #padelberlin #padelzeit",
+    "de": "41 Stunden Padel. Ohne den Court zu verlassen. 🎾\n\nIm Juni 2026 haben vier Spanier – Brais Rey, Martín Domínguez, Jorge Bigotes und Pablo Santos – im Club Mais que Auga bei Vigo 41 Stunden am Stück gespielt.\n\n⏱️ 100 Sätze. Endstand: 57 zu 43.\n🦶 Einer hat barfuß zu Ende gespielt, damit die Füße weniger wehtun.\n❤️ Für alle 2 Minuten auf dem Court gab es 1 € – 1.230 € für die Spanische Krebsgesellschaft.\n\nDer offizielle Guinness-Rekord liegt bei 40 Stunden (Blackpool, 2025). Die neuen 41 muss Guinness noch bestätigen. Und der Rekord fällt immer wieder: über 31 Stunden 2023, 40 im Jahr 2025, 41 im Jahr 2026.\n\nWie lange hast du am längsten gespielt? 👇\n\n#padel #padelworld #weltrekord #padellife #padelberlin #padelzeit"
+   },
+   "sources": [
+    "https://padelspeak.com/en/41-hours-of-padel-without-leaving-the-court-4-spaniards-smash-the-world-record-in-vigo/",
+    "https://www.guinnessworldrecords.com/world-records/210939-longest-marathon-playing-padel"
+   ]
+  },
+  {
+   "id": "your-ball-is-yellow",
+   "title": "Your ball is yellow",
+   "isNew": false,
+   "slides": [
+    {
+     "src": "posts/your-ball-is-yellow/01.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-ball-is-yellow/01_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-ball-is-yellow/02.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-ball-is-yellow/02_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-ball-is-yellow/03.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-ball-is-yellow/03_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-ball-is-yellow/04.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-ball-is-yellow/04_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-ball-is-yellow/05.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-ball-is-yellow/05_s.jpg",
+     "sw": 540
+    },
+    {
+     "src": "posts/your-ball-is-yellow/06.jpg",
+     "w": 1080,
+     "h": 1446,
+     "small": "posts/your-ball-is-yellow/06_s.jpg",
+     "sw": 540
+    }
+   ],
+   "caption": {
+    "en": "Your padel ball is yellow. Blame television. 📺\n\n1967 – BBC2, run by David Attenborough, shows Wimbledon in colour for the first time. Problem: the white ball is hard to follow on screen.\n1972 – The ITF tests ball colours and approves optic yellow: the easiest colour to see on TV.\n1986 – Wimbledon finally gives in, after 14 more years of white balls.\n\nAnd padel? FIP rules still allow white, yellow or any colour that contrasts with the court. Yellow simply won.\n\nSo next time you spot the ball under the floodlights at 22:00 – thank 1967. 🎾\n\n#padel #padelhistory #padelfacts #padellife #padelberlin #padelzeit",
+    "de": "Dein Padelball ist gelb. Schuld ist das Fernsehen. 📺\n\n1967 – BBC2, damals geleitet von David Attenborough, zeigt Wimbledon zum ersten Mal in Farbe. Problem: Der weiße Ball ist auf dem Bildschirm kaum zu sehen.\n1972 – Der Tennis-Weltverband ITF testet Ballfarben und lässt Neongelb zu: die Farbe, die man im Fernsehen am besten sieht.\n1986 – Wimbledon gibt nach, nach 14 weiteren Jahren mit weißen Bällen.\n\nUnd Padel? Laut FIP-Regeln sind bis heute Weiß, Gelb oder jede Farbe erlaubt, die sich vom Belag abhebt. Gelb hat einfach gewonnen.\n\nWenn du also das nächste Mal um 22 Uhr unter Flutlicht den Ball siehst – danke 1967. 🎾\n\n#padel #padelgeschichte #padelfakten #padellife #padelberlin #padelzeit"
+   },
+   "sources": [
+    "https://www.tennis365.com/tennis-features/how-tennis-changed-from-white-to-yellow-tennis-balls-thanks-to-david-attenborough",
+    "FIP Rules of Padel, Abschnitt 9 „The Ball\": „white, yellow or other colors that has an appropriate and clear contrast with the surface color\""
+   ]
+  }
+ ]
+}

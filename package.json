@@ -1,0 +1,15 @@
+{
+  "name": "padelzeit-posts-voting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kleine Seite fürs Team: Instagram-Posts ansehen, 👍/👎 abstimmen, kurz kommentieren.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:posts": "python tools/build_posts.py"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
