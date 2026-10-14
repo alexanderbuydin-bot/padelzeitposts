@@ -21,6 +21,14 @@
 
   const SEND_ICON =
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>';
+  const DOWNLOAD_ICON =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 19.5h14"/></svg>';
+  const COPY_ICON =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2.5"/><path d="M15 9V6.5A2.5 2.5 0 0 0 12.5 4h-6A2.5 2.5 0 0 0 4 6.5v6A2.5 2.5 0 0 0 6.5 15H9"/></svg>';
+  const CHECK_ICON =
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+  const SPINNER =
+    '<svg class="spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9"/></svg>';
   const EMPTY = { yes: [], no: [], mine: 0, comments: [] };
   const POLL_MS = 20000;
 
@@ -161,7 +169,7 @@
     });
     form.append(input, send);
 
-    body.append(head, vote, voters, comments, form, buildCaption(post));
+    body.append(head, vote, voters, comments, form, buildTools(post), buildCaption(post));
     root.append(slides, body);
     return { root, verdict, yes, no, voters, comments };
   }
@@ -204,8 +212,7 @@
     const copy = el('button', 'caption__copy', 'Text kopieren');
     copy.type = 'button';
     copy.addEventListener('click', async () => {
-      await copyText(post.caption[lang] || '');
-      toast('Text kopiert');
+      toast((await copyText(post.caption[lang] || '')) ? 'Text kopiert' : 'Kopieren ging nicht – Text lang drücken');
     });
     box.append(seg, text, copy);
     if (post.sources.length) {
@@ -228,6 +235,139 @@
     }
     show();
     return box;
+  }
+
+  // ---------- Zum Posten: alle Fotos, Text kopieren ----------
+
+  function buildTools(post) {
+    const row = el('div', 'tools');
+    const photos = toolButton(DOWNLOAD_ICON, 'Alle Fotos', `Alle ${post.slides.length} Fotos laden`);
+    photos.btn.classList.add('tool--photos');
+    photos.btn.addEventListener('click', () => savePhotos(post, photos));
+    row.append(photos.btn);
+    for (const [lang, label, aria] of [['en', 'Text EN', 'Englischen Text kopieren'], ['de', 'Text DE', 'Deutschen Text kopieren']]) {
+      const tool = toolButton(COPY_ICON, label, aria);
+      tool.btn.addEventListener('click', () => copyCaption(post, lang, tool));
+      row.append(tool.btn);
+    }
+    return row;
+  }
+
+  function toolButton(icon, label, aria) {
+    const btn = el('button', 'tool');
+    btn.type = 'button';
+    btn.setAttribute('aria-label', aria);
+    const tool = {
+      btn,
+      timer: 0,
+      show(svg, text, state = '') {
+        btn.innerHTML = svg;
+        btn.append(el('span', 'tool__label', text));
+        btn.dataset.state = state;
+      },
+      reset() { tool.show(icon, label); },
+    };
+    tool.reset();
+    return tool;
+  }
+
+  async function copyCaption(post, lang, tool) {
+    if (!(await copyText(post.caption[lang] || ''))) {
+      toast('Kopieren ging nicht – unter „Text zum Post lesen“ lang drücken');
+      return;
+    }
+    clearTimeout(tool.timer);
+    tool.show(CHECK_ICON, 'Kopiert', 'done');
+    tool.timer = setTimeout(tool.reset, 1600);
+  }
+
+  // Fotos einmal laden, beim zweiten Tippen liegen sie schon bereit
+  const photoJobs = new Map();
+
+  function loadPhotos(post) {
+    let job = photoJobs.get(post.id);
+    if (!job) {
+      job = { done: 0, onProgress: null };
+      job.files = Promise.all(post.slides.map(async (s) => {
+        const res = await fetch(s.dl);
+        if (!res.ok) throw new Error(`Fehler ${res.status}`);
+        const file = new File([await res.blob()], s.dl.split('/').pop(), { type: 'image/jpeg' });
+        job.done += 1;
+        if (job.onProgress) job.onProgress(job.done);
+        return file;
+      }));
+      job.files.catch(() => photoJobs.delete(post.id));
+      photoJobs.set(post.id, job);
+    }
+    return job;
+  }
+
+  // Telefon: Teilen-Menü (iPhone „Bilder sichern“, Instagram, WhatsApp …). PC: eine ZIP-Datei.
+  function canShareFiles(files) {
+    return matchMedia('(pointer: coarse)').matches && !!navigator.canShare && navigator.canShare({ files });
+  }
+
+  async function savePhotos(post, tool) {
+    if (tool.btn.dataset.state === 'busy') return;
+    const total = post.slides.length;
+    const job = loadPhotos(post);
+    const progress = (n) => tool.show(SPINNER, `Lädt ${n}/${total}`, 'busy');
+    let files;
+    try {
+      if (job.done < total) {
+        progress(job.done);
+        job.onProgress = progress;
+      }
+      files = await job.files;
+    } catch {
+      tool.reset();
+      toast('Fotos konnten nicht geladen werden – bitte nochmal tippen');
+      return;
+    } finally {
+      job.onProgress = null;
+    }
+
+    if (canShareFiles(files)) {
+      try {
+        await navigator.share({ files });
+        tool.reset();
+      } catch (err) {
+        if (err.name === 'NotAllowedError') {
+          // Laden hat zu lange gedauert – der Browser verlangt einen frischen Fingertipp
+          tool.show(DOWNLOAD_ICON, 'Jetzt sichern', 'ready');
+        } else {
+          tool.reset();
+          if (err.name !== 'AbortError') downloadZip(post, files);
+        }
+      }
+      return;
+    }
+    tool.reset();
+    downloadZip(post, files);
+  }
+
+  async function downloadZip(post, files) {
+    const folder = post.title.replace(/[\\/:*?"<>|]+/g, '-');
+    const entries = await Promise.all(files.map(async (f) => ({
+      name: `${folder}/${f.name}`,
+      data: new Uint8Array(await f.arrayBuffer()),
+    })));
+    entries.push({ name: `${folder}/Text.txt`, data: new TextEncoder().encode(captionFile(post)) });
+    const url = URL.createObjectURL(window.makeZip(entries));
+    const link = el('a');
+    link.href = url;
+    link.download = `${folder}.zip`;
+    document.body.append(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+    toast(`${files.length} Fotos als ZIP geladen`);
+  }
+
+  function captionFile(post) {
+    const parts = [post.title, '', 'ENGLISH', post.caption.en, '', 'DEUTSCH', post.caption.de];
+    if (post.sources.length) parts.push('', 'QUELLEN', ...post.sources);
+    return `${parts.join('\n')}\n`;
   }
 
   // ---------- Slides ----------
@@ -488,6 +628,7 @@
   async function copyText(text) {
     try {
       await navigator.clipboard.writeText(text);
+      return true;
     } catch {
       const area = el('textarea');
       area.value = text;
@@ -495,8 +636,9 @@
       area.style.opacity = '0';
       document.body.append(area);
       area.select();
-      document.execCommand('copy');
+      const ok = document.execCommand('copy');
       area.remove();
+      return ok;
     }
   }
 

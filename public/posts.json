@@ -10,42 +10,48 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/your-neighbours-hate-this-sound/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-neighbours-hate-this-sound/dl/1_cover.jpg"
     },
     {
      "src": "posts/your-neighbours-hate-this-sound/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-neighbours-hate-this-sound/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-neighbours-hate-this-sound/dl/2_why_so_loud.jpg"
     },
     {
      "src": "posts/your-neighbours-hate-this-sound/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-neighbours-hate-this-sound/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-neighbours-hate-this-sound/dl/3_100_metres.jpg"
     },
     {
      "src": "posts/your-neighbours-hate-this-sound/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-neighbours-hate-this-sound/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-neighbours-hate-this-sound/dl/4_court_verdict.jpg"
     },
     {
      "src": "posts/your-neighbours-hate-this-sound/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-neighbours-hate-this-sound/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-neighbours-hate-this-sound/dl/5_spreading.jpg"
     },
     {
      "src": "posts/your-neighbours-hate-this-sound/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-neighbours-hate-this-sound/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-neighbours-hate-this-sound/dl/6_your_turn.jpg"
     }
    ],
    "caption": {
@@ -69,42 +75,48 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/tap-the-racket/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/tap-the-racket/dl/1_cover.jpg"
     },
     {
      "src": "posts/tap-the-racket/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/tap-the-racket/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/tap-the-racket/dl/2_294_players.jpg"
     },
     {
      "src": "posts/tap-the-racket/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/tap-the-racket/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/tap-the-racket/dl/3_12_kinds_of_touch.jpg"
     },
     {
      "src": "posts/tap-the-racket/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/tap-the-racket/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/tap-the-racket/dl/4_more_touch_more_wins.jpg"
     },
     {
      "src": "posts/tap-the-racket/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/tap-the-racket/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/tap-the-racket/dl/5_celtics_and_lakers.jpg"
     },
     {
      "src": "posts/tap-the-racket/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/tap-the-racket/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/tap-the-racket/dl/6_your_turn.jpg"
     }
    ],
    "caption": {
@@ -126,42 +138,48 @@
      "w": 896,
      "h": 1200,
      "small": "posts/your-court-is-blue/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-court-is-blue/dl/1_cover.jpg"
     },
     {
      "src": "posts/your-court-is-blue/02.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/your-court-is-blue/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-court-is-blue/dl/2_green_was_classic.jpg"
     },
     {
      "src": "posts/your-court-is-blue/03.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/your-court-is-blue/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-court-is-blue/dl/3_2005_us_open.jpg"
     },
     {
      "src": "posts/your-court-is-blue/04.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/your-court-is-blue/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-court-is-blue/dl/4_2008_australian_open.jpg"
     },
     {
      "src": "posts/your-court-is-blue/05.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/your-court-is-blue/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-court-is-blue/dl/5_yellow_on_blue.jpg"
     },
     {
      "src": "posts/your-court-is-blue/06.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/your-court-is-blue/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-court-is-blue/dl/6_your_turn.jpg"
     }
    ],
    "caption": {
@@ -184,42 +202,48 @@
      "w": 896,
      "h": 1200,
      "small": "posts/bankers-left-golf-for-padel/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/bankers-left-golf-for-padel/dl/1_cover.jpg"
     },
     {
      "src": "posts/bankers-left-golf-for-padel/02.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/bankers-left-golf-for-padel/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/bankers-left-golf-for-padel/dl/2_golf_4_hours.jpg"
     },
     {
      "src": "posts/bankers-left-golf-for-padel/03.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/bankers-left-golf-for-padel/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/bankers-left-golf-for-padel/dl/3_short_points.jpg"
     },
     {
      "src": "posts/bankers-left-golf-for-padel/04.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/bankers-left-golf-for-padel/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/bankers-left-golf-for-padel/dl/4_boss_and_intern.jpg"
     },
     {
      "src": "posts/bankers-left-golf-for-padel/05.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/bankers-left-golf-for-padel/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/bankers-left-golf-for-padel/dl/5_next_to_the_golf_course.jpg"
     },
     {
      "src": "posts/bankers-left-golf-for-padel/06.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/bankers-left-golf-for-padel/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/bankers-left-golf-for-padel/dl/6_your_turn.jpg"
     }
    ],
    "caption": {
@@ -242,42 +266,48 @@
      "w": 896,
      "h": 1200,
      "small": "posts/a-point-lasts-11-seconds/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/a-point-lasts-11-seconds/dl/1_cover.jpg"
     },
     {
      "src": "posts/a-point-lasts-11-seconds/02.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/a-point-lasts-11-seconds/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/a-point-lasts-11-seconds/dl/2_rally_length.jpg"
     },
     {
      "src": "posts/a-point-lasts-11-seconds/03.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/a-point-lasts-11-seconds/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/a-point-lasts-11-seconds/dl/3_shots_per_point.jpg"
     },
     {
      "src": "posts/a-point-lasts-11-seconds/04.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/a-point-lasts-11-seconds/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/a-point-lasts-11-seconds/dl/4_distance.jpg"
     },
     {
      "src": "posts/a-point-lasts-11-seconds/05.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/a-point-lasts-11-seconds/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/a-point-lasts-11-seconds/dl/5_ball_in_play.jpg"
     },
     {
      "src": "posts/a-point-lasts-11-seconds/06.jpg",
      "w": 896,
      "h": 1200,
      "small": "posts/a-point-lasts-11-seconds/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/a-point-lasts-11-seconds/dl/6_your_turn.jpg"
     }
    ],
    "caption": {
@@ -299,42 +329,48 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/autumn-changed-your-game/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/autumn-changed-your-game/dl/1_cover.jpg"
     },
     {
      "src": "posts/autumn-changed-your-game/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/autumn-changed-your-game/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/autumn-changed-your-game/dl/2_ball.jpg"
     },
     {
      "src": "posts/autumn-changed-your-game/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/autumn-changed-your-game/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/autumn-changed-your-game/dl/3_racket.jpg"
     },
     {
      "src": "posts/autumn-changed-your-game/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/autumn-changed-your-game/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/autumn-changed-your-game/dl/4_court.jpg"
     },
     {
      "src": "posts/autumn-changed-your-game/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/autumn-changed-your-game/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/autumn-changed-your-game/dl/5_light.jpg"
     },
     {
      "src": "posts/autumn-changed-your-game/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/autumn-changed-your-game/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/autumn-changed-your-game/dl/6_fix.jpg"
     }
    ],
    "caption": {
@@ -353,42 +389,48 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/the-secret-language-behind-your-back/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/the-secret-language-behind-your-back/dl/1_cover.jpg"
     },
     {
      "src": "posts/the-secret-language-behind-your-back/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/the-secret-language-behind-your-back/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/the-secret-language-behind-your-back/dl/2_fist.jpg"
     },
     {
      "src": "posts/the-secret-language-behind-your-back/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/the-secret-language-behind-your-back/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/the-secret-language-behind-your-back/dl/3_open_hand.jpg"
     },
     {
      "src": "posts/the-secret-language-behind-your-back/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/the-secret-language-behind-your-back/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/the-secret-language-behind-your-back/dl/4_one_finger.jpg"
     },
     {
      "src": "posts/the-secret-language-behind-your-back/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/the-secret-language-behind-your-back/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/the-secret-language-behind-your-back/dl/5_two_fingers.jpg"
     },
     {
      "src": "posts/the-secret-language-behind-your-back/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/the-secret-language-behind-your-back/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/the-secret-language-behind-your-back/dl/6_code.jpg"
     }
    ],
    "caption": {
@@ -407,49 +449,56 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/1_cover.jpg"
     },
     {
      "src": "posts/lies-every-padel-player-tells/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/2_lie1_im_a_4.jpg"
     },
     {
      "src": "posts/lies-every-padel-player-tells/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/3_lie2_that_was_out.jpg"
     },
     {
      "src": "posts/lies-every-padel-player-tells/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/4_lie3_last_game.jpg"
     },
     {
      "src": "posts/lies-every-padel-player-tells/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/5_lie4_its_the_racket.jpg"
     },
     {
      "src": "posts/lies-every-padel-player-tells/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/6_lie5_not_competitive.jpg"
     },
     {
      "src": "posts/lies-every-padel-player-tells/07.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/lies-every-padel-player-tells/07_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/lies-every-padel-player-tells/dl/7_biggest_lie_winter.jpg"
     }
    ],
    "caption": {
@@ -468,49 +517,56 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/1_cover.jpg"
     },
     {
      "src": "posts/padel-partner-red-flags/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/2_mine.jpg"
     },
     {
      "src": "posts/padel-partner-red-flags/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/3_left_side.jpg"
     },
     {
      "src": "posts/padel-partner-red-flags/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/4_tips.jpg"
     },
     {
      "src": "posts/padel-partner-red-flags/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/5_sorry.jpg"
     },
     {
      "src": "posts/padel-partner-red-flags/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/6_middle.jpg"
     },
     {
      "src": "posts/padel-partner-red-flags/07.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/padel-partner-red-flags/07_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/padel-partner-red-flags/dl/7_tag_yours.jpg"
     }
    ],
    "caption": {
@@ -529,42 +585,48 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/41-hours-of-padel/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/41-hours-of-padel/dl/1_cover.jpg"
     },
     {
      "src": "posts/41-hours-of-padel/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/41-hours-of-padel/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/41-hours-of-padel/dl/2_100_sets.jpg"
     },
     {
      "src": "posts/41-hours-of-padel/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/41-hours-of-padel/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/41-hours-of-padel/dl/3_barefoot.jpg"
     },
     {
      "src": "posts/41-hours-of-padel/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/41-hours-of-padel/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/41-hours-of-padel/dl/4_cause.jpg"
     },
     {
      "src": "posts/41-hours-of-padel/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/41-hours-of-padel/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/41-hours-of-padel/dl/5_record.jpg"
     },
     {
      "src": "posts/41-hours-of-padel/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/41-hours-of-padel/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/41-hours-of-padel/dl/6_your_turn.jpg"
     }
    ],
    "caption": {
@@ -586,42 +648,48 @@
      "w": 1080,
      "h": 1446,
      "small": "posts/your-ball-is-yellow/01_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-ball-is-yellow/dl/1_cover.jpg"
     },
     {
      "src": "posts/your-ball-is-yellow/02.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-ball-is-yellow/02_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-ball-is-yellow/dl/2_1967.jpg"
     },
     {
      "src": "posts/your-ball-is-yellow/03.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-ball-is-yellow/03_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-ball-is-yellow/dl/3_1972.jpg"
     },
     {
      "src": "posts/your-ball-is-yellow/04.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-ball-is-yellow/04_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-ball-is-yellow/dl/4_1986.jpg"
     },
     {
      "src": "posts/your-ball-is-yellow/05.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-ball-is-yellow/05_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-ball-is-yellow/dl/5_white_allowed.jpg"
     },
     {
      "src": "posts/your-ball-is-yellow/06.jpg",
      "w": 1080,
      "h": 1446,
      "small": "posts/your-ball-is-yellow/06_s.jpg",
-     "sw": 540
+     "sw": 540,
+     "dl": "posts/your-ball-is-yellow/dl/6_today.jpg"
     }
    ],
    "caption": {

@@ -7,6 +7,7 @@
   --line: #e2e8f0;
   --soft: #f1f5f9;
   --blue: #2563eb;
+  --blue-soft: #e8f0fe;
   --yes: #16a34a;
   --yes-soft: #dcfce7;
   --no: #e11d48;
@@ -28,6 +29,7 @@
     --line: #263244;
     --soft: #1b2331;
     --blue: #3b82f6;
+    --blue-soft: rgba(59, 130, 246, .16);
     --yes-soft: rgba(34, 197, 94, .16);
     --no-soft: rgba(244, 63, 94, .16);
     --tie-soft: rgba(245, 158, 11, .16);
@@ -423,9 +425,60 @@ button { cursor: pointer; -webkit-tap-highlight-color: transparent; }
 .comment-form__send:active:not(:disabled) { transform: scale(.93); }
 .comment-form__send svg { width: 20px; height: 20px; }
 
+/* ---------- Zum Posten: Fotos laden, Text kopieren ---------- */
+
+.tools {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  gap: 8px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.tool {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 0;
+  height: 46px;
+  padding: 0 8px;
+  border: 1.5px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: transform .08s ease, background .15s ease, border-color .15s ease, color .15s ease;
+}
+
+.tool svg { flex: none; width: 18px; height: 18px; }
+.tool__label { overflow: hidden; text-overflow: ellipsis; }
+.tool:active { transform: scale(.96); }
+
+.tool--photos { color: var(--blue); background: var(--blue-soft); border-color: transparent; }
+.tool[data-state="busy"] { cursor: progress; }
+.tool[data-state="ready"] { color: #fff; background: var(--blue); animation: pulse 1.4s ease infinite; }
+.tool[data-state="done"] { color: var(--yes); background: var(--yes-soft); border-color: transparent; }
+
+@media (hover: hover) {
+  .tool:hover { border-color: var(--blue); }
+}
+
+@media (max-width: 359px) {
+  .tools { gap: 6px; }
+  .tool { gap: 4px; padding: 0 5px; font-size: 13px; }
+  .tool svg { width: 16px; height: 16px; }
+}
+
+.spin { animation: spin .8s linear infinite; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes pulse { 50% { box-shadow: 0 0 0 5px var(--blue-soft); } }
+
 /* ---------- Text zum Post ---------- */
 
-.caption { padding-top: 10px; border-top: 1px solid var(--line); }
+.caption { margin-top: -4px; }
 
 .caption__summary {
   display: flex;

@@ -1,4 +1,5 @@
-"""Erzeugt public/posts/<slug>/*.jpg und public/posts.json aus den fertigen Karussells.
+"""Erzeugt public/posts/<slug>/*.jpg (Anzeige), public/posts/<slug>/dl/*.jpg (zum Herunterladen)
+und public/posts.json aus den fertigen Karussells.
 
 Aufruf:  python tools/build_posts.py [Quellordner]
 Standard-Quellordner: ~/Desktop/Posts (ein Unterordner pro Post, Slides als 1_xxx.jpg, 2_xxx.jpg …,
@@ -36,6 +37,7 @@ ORDER = [
 ]
 
 LARGE, SMALL = 1080, 540  # Breite in px; kleiner wird nicht hochskaliert
+DOWNLOAD_QUALITY = 92     # „Alle Fotos laden": 1080 px wie bei Instagram, aber kaum Kompressionsspuren an der Schrift
 
 
 def slug(text):
@@ -79,16 +81,18 @@ def main():
         if not files:
             sys.exit(f'Keine Slides in {src}')
         pid = slug(folder)
-        (OUT / pid).mkdir()
+        (OUT / pid / 'dl').mkdir(parents=True)
         slides = []
         for n, f in enumerate(files, 1):
             img = Image.open(f).convert('RGB')
             big = f'{n:02d}.jpg'
             small = f'{n:02d}_s.jpg'
+            dl = re.sub(r'[^A-Za-z0-9_-]+', '-', f.stem) + '.jpg'   # Dateiname wie im Post-Ordner
             w, h = save(img, LARGE, OUT / pid / big, 82)
             sw, _ = save(img, SMALL, OUT / pid / small, 78)
+            save(img, LARGE, OUT / pid / 'dl' / dl, DOWNLOAD_QUALITY)
             slides.append({'src': f'posts/{pid}/{big}', 'w': w, 'h': h,
-                           'small': f'posts/{pid}/{small}', 'sw': sw})
+                           'small': f'posts/{pid}/{small}', 'sw': sw, 'dl': f'posts/{pid}/dl/{dl}'})
         text = sections((src / 'Beschreibung.txt').read_text(encoding='utf-8'))
         sources = [s.strip() for s in text.get('QUELLEN', '').split('\n') if s.strip()]
         posts.append({
