@@ -5,7 +5,9 @@ Kleine Seite fürs Team: Instagram-Karussells ansehen, mit 👍 **Posten** oder 
 - Kein Login: Beim ersten Öffnen fragt die Seite nach dem Vornamen, er bleibt im Browser gespeichert.
 - Eine Stimme pro Person und Post. Nochmal tippen nimmt sie zurück, der andere Knopf wechselt sie.
 - Stimmen und Kommentare der anderen erscheinen von selbst (alle 20 Sekunden).
-- Unter jedem Post steht der fertige Text (Deutsch/Englisch) zum Kopieren.
+- Unter jedem Post: **Alle Fotos** lädt die Slides (1080 px, Qualität 92) – am Telefon über das Teilen-Menü
+  (iPhone „Bilder sichern“, Instagram, WhatsApp …), am PC als ZIP mit Ordner und `Text.txt`.
+  **Text EN** / **Text DE** kopieren die fertige Bildunterschrift.
 
 ## Lokal starten
 
@@ -49,5 +51,7 @@ sonst fängt der Post bei null an.
 
 - `server.js` – liefert `public/` aus und die API (`/api/state`, `/api/vote`, `/api/comment`,
   `/api/comment/delete`, `/api/rename`). Speichert alles in einer JSON-Datei.
-- `public/` – die Seite (`index.html`, `style.css`, `app.js`) und die Bilder unter `posts/`.
-- `tools/build_posts.py` – erzeugt die Web-Bilder (1080 px und 540 px) und `posts.json`.
+- `public/` – die Seite (`index.html`, `style.css`, `app.js`, `zip.js` für den ZIP-Download am PC) und die
+  Bilder unter `posts/`.
+- `tools/build_posts.py` – erzeugt die Web-Bilder (1080 px und 540 px), die Download-Fassung unter
+  `posts/<post>/dl/` (Dateinamen wie im Post-Ordner) und `posts.json`.
