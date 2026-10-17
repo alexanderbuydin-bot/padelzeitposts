@@ -27,7 +27,8 @@
   <main class="page">
     <section class="intro">
       <h1>Welche Posts gehen raus?</h1>
-      <p>Durch die Slides wischen, dann <b>Posten</b> oder <b>Nicht posten</b> tippen. Ein kurzer Kommentar hilft.</p>
+      <p>Durch die Slides wischen, dann <b>Posten</b> oder <b>Nicht posten</b> tippen. Ein kurzer Kommentar hilft.
+        Schon online oder Mist? Unter dem Bild <b>nach rechts wischen</b>: gepostet oder löschen.</p>
       <div class="progress">
         <div class="progress__bar"><span id="progress-fill"></span></div>
         <span class="progress__text" id="progress-text"></span>
@@ -35,6 +36,14 @@
     </section>
     <div class="grid" id="grid"></div>
     <p class="loading" id="loading">Lade Posts …</p>
+    <section class="section" id="posted" hidden>
+      <h2 class="section__title">Schon gepostet <span class="section__count" id="posted-count"></span></h2>
+      <div class="grid" id="posted-grid"></div>
+    </section>
+    <details class="section section--trash" id="trash" hidden>
+      <summary class="section__title">Papierkorb <span class="section__count" id="trash-count"></span></summary>
+      <div class="grid" id="trash-grid"></div>
+    </details>
   </main>
 
   <div class="sheet" id="name-sheet" hidden>

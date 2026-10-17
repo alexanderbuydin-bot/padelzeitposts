@@ -8,6 +8,8 @@ Kleine Seite fürs Team: Instagram-Karussells ansehen, mit 👍 **Posten** oder 
 - Unter jedem Post: **Alle Fotos** lädt die Slides (1080 px, Qualität 92) – am Telefon über das Teilen-Menü
   (iPhone „Bilder sichern“, Instagram, WhatsApp …), am PC als ZIP mit Ordner und `Text.txt`.
   **Text EN** / **Text DE** kopieren die fertige Bildunterschrift.
+- Karte unter dem Bild **nach rechts wischen** (am PC: **⋯**): **Gepostet** schiebt den Post in „Schon gepostet",
+  **Löschen** in den zugeklappten Papierkorb – von dort lässt er sich zurückholen. Gilt für alle, mit Name und Zeit.
 
 ## Lokal starten
 
@@ -50,7 +52,7 @@ sonst fängt der Post bei null an.
 ## Aufbau
 
 - `server.js` – liefert `public/` aus und die API (`/api/state`, `/api/vote`, `/api/comment`,
-  `/api/comment/delete`, `/api/rename`). Speichert alles in einer JSON-Datei.
+  `/api/comment/delete`, `/api/status`, `/api/rename`). Speichert alles in einer JSON-Datei.
 - `public/` – die Seite (`index.html`, `style.css`, `app.js`, `zip.js` für den ZIP-Download am PC) und die
   Bilder unter `posts/`.
 - `tools/build_posts.py` – erzeugt die Web-Bilder (1080 px und 540 px), die Download-Fassung unter

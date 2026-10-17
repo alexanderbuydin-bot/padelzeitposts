@@ -34,7 +34,7 @@ const POST_SET = new Set(POST_IDS);
 // ---------- Speicher ----------
 
 function loadDb() {
-  const empty = { votes: {}, comments: {} };
+  const empty = { votes: {}, comments: {}, status: {} };
   let raw;
   try {
     raw = fs.readFileSync(DB_FILE, 'utf8');
@@ -136,10 +136,12 @@ function stateFor(clientId) {
     const yes = [];
     const no = [];
     for (const v of Object.values(votes)) (v.value > 0 ? yes : no).push(v.name);
+    const status = db.status[id];
     posts[id] = {
       yes,
       no,
       mine: votes[clientId] ? votes[clientId].value : 0,
+      status: status ? { state: status.state, name: status.name, ts: status.ts } : null,
       comments: (db.comments[id] || []).map((c) => ({
         id: c.id,
         name: c.name,
@@ -156,6 +158,7 @@ function stateFor(clientId) {
 function renameClient(clientId, name) {
   for (const votes of Object.values(db.votes)) if (votes[clientId]) votes[clientId].name = name;
   for (const list of Object.values(db.comments)) for (const c of list) if (c.client === clientId) c.name = name;
+  for (const s of Object.values(db.status)) if (s.client === clientId) s.name = name;
 }
 
 async function handleApi(req, res, url) {
@@ -204,6 +207,14 @@ async function handleApi(req, res, url) {
       const index = list.findIndex((c) => c.id === body.commentId && c.client === clientId);
       if (index < 0) return sendJson(res, 404, { error: 'Kommentar nicht gefunden' });
       list.splice(index, 1);
+      break;
+    }
+    case '/api/status': {
+      // gepostet / gelöscht (landet im Papierkorb) / wieder offen – für alle sichtbar
+      const value = String(body.state || '');
+      if (!['posted', 'deleted', 'open'].includes(value)) return sendJson(res, 400, { error: 'Unbekannter Status' });
+      if (value === 'open') delete db.status[postId];
+      else db.status[postId] = { state: value, name, client: clientId, ts: Date.now() };
       break;
     }
     case '/api/rename':

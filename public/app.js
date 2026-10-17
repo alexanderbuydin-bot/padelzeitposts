@@ -29,7 +29,8 @@
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
   const SPINNER =
     '<svg class="spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9"/></svg>';
-  const EMPTY = { yes: [], no: [], mine: 0, comments: [] };
+  const EMPTY = { yes: [], no: [], mine: 0, comments: [], status: null };
+  const SWIPE_W = 156; // so weit fährt die Karte beim Wischen nach rechts auf
   const POLL_MS = 20000;
 
   const clientId = storage.get('pz-client') || newId();
@@ -73,7 +74,13 @@
   function applyState(data) {
     state = data.posts || {};
     for (const id of cards.keys()) updateCard(id);
+    placeCards();
     updateProgress();
+  }
+
+  function statusOf(postId) {
+    const s = (state[postId] || EMPTY).status;
+    return s ? s.state : 'open';
   }
 
   // ---------- Karte bauen ----------
@@ -138,7 +145,11 @@
     const body = el('div', 'card__body');
     const head = el('div', 'card__head');
     const verdict = el('span', 'verdict');
-    head.append(el('h2', 'card__title', post.title), verdict);
+    const more = el('button', 'more', '⋯');
+    more.type = 'button';
+    more.setAttribute('aria-label', 'Gepostet oder löschen');
+    head.append(el('h2', 'card__title', post.title), verdict, more);
+    const statusLine = el('p', 'status-line');
 
     const vote = el('div', 'vote');
     const yes = voteButton('yes', '👍', 'Posten');
@@ -169,9 +180,137 @@
     });
     form.append(input, send);
 
-    body.append(head, vote, voters, comments, form, buildTools(post), buildCaption(post));
-    root.append(slides, body);
-    return { root, verdict, yes, no, voters, comments };
+    body.append(head, statusLine, vote, voters, comments, form, buildTools(post), buildCaption(post));
+    const inner = el('div', 'card__inner');
+    inner.append(slides, body);
+    const actions = el('div', 'card__actions');
+    root.append(actions, inner);
+    const card = { post, root, inner, actions, slides, body, verdict, statusLine, yes, no, voters, comments, open: false, shown: '' };
+    more.addEventListener('click', () => setOpen(card, !card.open));
+    enableSwipe(card);
+    return card;
+  }
+
+  // ---------- Wischen: gepostet / löschen ----------
+
+  let openCard = null;
+
+  function setOpen(card, open) {
+    if (open && openCard && openCard !== card) setOpen(openCard, false);
+    card.open = open;
+    card.root.classList.toggle('is-open', open);
+    card.inner.style.transform = open ? `translateX(${SWIPE_W}px)` : '';
+    card.actions.style.paddingTop = `${card.slides.offsetHeight}px`; // Knöpfe neben dem Textteil, wo der Finger ist
+    if (open) openCard = card;
+    else if (openCard === card) openCard = null;
+  }
+
+  function enableSwipe(card) {
+    const { body, inner } = card;
+    let drag = null;
+    let swallowUntil = 0;
+    body.addEventListener('pointerdown', (e) => {
+      if (e.button > 0 || e.target.closest('input, .caption')) return;
+      drag = { x: e.clientX, y: e.clientY, id: e.pointerId, mode: '', base: card.open ? SWIPE_W : 0, dx: 0 };
+    });
+    body.addEventListener('pointermove', (e) => {
+      if (!drag || e.pointerId !== drag.id) return;
+      const mx = e.clientX - drag.x;
+      const my = e.clientY - drag.y;
+      if (!drag.mode) {
+        if (Math.hypot(mx, my) < 9) return;
+        drag.mode = Math.abs(mx) > Math.abs(my) * 1.3 ? 'swipe' : 'scroll';
+        if (drag.mode === 'swipe') {
+          body.setPointerCapture(e.pointerId);
+          card.root.classList.add('is-dragging');
+          card.actions.style.paddingTop = `${card.slides.offsetHeight}px`;
+          if (openCard && openCard !== card) setOpen(openCard, false);
+        }
+      }
+      if (drag.mode !== 'swipe') return;
+      drag.dx = Math.max(0, Math.min(SWIPE_W * 1.2, drag.base + mx));
+      inner.style.transform = `translateX(${drag.dx}px)`;
+    });
+    const end = (e) => {
+      if (!drag || e.pointerId !== drag.id) return;
+      if (drag.mode === 'swipe') {
+        card.root.classList.remove('is-dragging');
+        setOpen(card, drag.dx > SWIPE_W * 0.45);
+        swallowUntil = performance.now() + 150; // der Klick nach dem Wischen zählt nicht
+      }
+      drag = null;
+    };
+    body.addEventListener('pointerup', end);
+    body.addEventListener('pointercancel', end);
+    inner.addEventListener('click', (e) => {
+      if (performance.now() < swallowUntil) {
+        e.preventDefault();
+        e.stopPropagation();
+      } else if (card.open) {
+        // offene Karte: ein Tipp darauf schließt sie wieder
+        e.preventDefault();
+        e.stopPropagation();
+        setOpen(card, false);
+      }
+    }, true);
+  }
+
+  const ACTIONS = {
+    open: [['posted', '✓', 'Gepostet', 'act--post'], ['deleted', '🗑', 'Löschen', 'act--delete']],
+    posted: [['open', '↩', 'Doch nicht gepostet', 'act--back'], ['deleted', '🗑', 'Löschen', 'act--delete']],
+    deleted: [['open', '↩', 'Zurückholen', 'act--back']],
+  };
+
+  function renderActions(card) {
+    const current = statusOf(card.post.id);
+    if (card.shown === current) return;
+    card.shown = current;
+    card.actions.replaceChildren(...ACTIONS[current].map(([next, icon, label, kind]) => {
+      const b = el('button', `act ${kind}`);
+      b.type = 'button';
+      b.append(el('span', 'act__icon', icon), el('span', 'act__label', label));
+      b.addEventListener('click', () => setStatus(card.post, next));
+      return b;
+    }));
+  }
+
+  const STATUS_TOAST = { posted: 'Als gepostet markiert', deleted: 'Gelöscht – liegt unten im Papierkorb', open: 'Wieder offen' };
+
+  async function setStatus(post, next, withUndo = true) {
+    if (!ensureName(() => setStatus(post, next, withUndo))) return;
+    const current = state[post.id] || EMPTY;
+    const previous = statusOf(post.id);
+    state[post.id] = { ...current, status: next === 'open' ? null : { state: next, name: myName, ts: Date.now() } };
+    setOpen(cards.get(post.id), false);
+    updateCard(post.id);
+    placeCards();
+    updateProgress();
+    if (withUndo) toast(STATUS_TOAST[next], { label: 'Rückgängig', run: () => setStatus(post, previous, false) });
+    try {
+      applyState(await api('/api/status', { postId: post.id, state: next }));
+    } catch (err) {
+      toast(`Nicht gespeichert: ${err.message}`);
+      refresh();
+    }
+  }
+
+  // Offene Posts oben, gepostete darunter, gelöschte im zugeklappten Papierkorb – Reihenfolge wie in posts.json
+  function placeCards() {
+    const grids = { open: $('#grid'), posted: $('#posted-grid'), deleted: $('#trash-grid') };
+    const counts = { open: 0, posted: 0, deleted: 0 };
+    posts.forEach((p, i) => {
+      const where = statusOf(p.id);
+      const grid = grids[where];
+      const root = cards.get(p.id).root;
+      counts[where] += 1;
+      if (root.parentElement === grid) return;
+      const after = posts.slice(i + 1).map((q) => cards.get(q.id).root).find((r) => r.parentElement === grid);
+      grid.insertBefore(root, after || null);
+    });
+    $('#posted').hidden = !counts.posted;
+    $('#posted-count').textContent = counts.posted;
+    $('#trash').hidden = !counts.deleted;
+    $('#trash-count').textContent = counts.deleted;
   }
 
   function navButton(kind, label, aria, onClick) {
@@ -395,9 +534,13 @@
       part.btn.setAttribute('aria-label', `${part.label}, ${list.length} ${list.length === 1 ? 'Stimme' : 'Stimmen'}`);
     }
 
-    const [kind, label] = verdictOf(s);
+    const st = s.status;
+    const [kind, label] = st ? [st.state, st.state === 'posted' ? '✓ Gepostet' : 'Gelöscht'] : verdictOf(s);
     card.verdict.className = `verdict verdict--${kind}`;
     card.verdict.textContent = label;
+    card.root.dataset.status = st ? st.state : 'open';
+    card.statusLine.textContent = st ? `${st.state === 'posted' ? 'Gepostet' : 'Gelöscht'} von ${st.name} · ${ago(st.ts)}` : '';
+    renderActions(card);
 
     card.voters.replaceChildren();
     if (s.yes.length) card.voters.append(el('span', null, `👍 ${s.yes.join(', ')}`));
@@ -443,10 +586,12 @@
   }
 
   function updateProgress() {
-    const done = posts.filter((p) => (state[p.id] || EMPTY).mine !== 0).length;
-    $('#progress-fill').style.width = posts.length ? `${(done / posts.length) * 100}%` : '0';
-    $('#progress-text').textContent =
-      done === posts.length && done > 0 ? 'Alles bewertet – danke! 🙌' : `${done} von ${posts.length} bewertet`;
+    // nur offene Posts zählen – gepostete und gelöschte sind erledigt
+    const open = posts.filter((p) => statusOf(p.id) === 'open');
+    const done = open.filter((p) => (state[p.id] || EMPTY).mine !== 0).length;
+    $('#progress-fill').style.width = open.length ? `${(done / open.length) * 100}%` : '100%';
+    $('#progress-text').textContent = !open.length ? 'Alles erledigt 🙌'
+      : done === open.length ? 'Alles bewertet – danke! 🙌' : `${done} von ${open.length} bewertet`;
   }
 
   function updateMe() {
@@ -617,12 +762,22 @@
   // ---------- Kleinkram ----------
 
   let toastTimer = 0;
-  function toast(message) {
+  function toast(message, action) {
     const box = $('#toast');
-    box.textContent = message;
+    box.replaceChildren(el('span', null, message));
+    if (action) {
+      const btn = el('button', 'toast__action', action.label);
+      btn.type = 'button';
+      btn.addEventListener('click', () => {
+        box.classList.remove('is-on');
+        action.run();
+      });
+      box.append(btn);
+    }
+    box.classList.toggle('has-action', !!action);
     box.classList.add('is-on');
     clearTimeout(toastTimer);
-    toastTimer = setTimeout(() => box.classList.remove('is-on'), 2600);
+    toastTimer = setTimeout(() => box.classList.remove('is-on'), action ? 5000 : 2600);
   }
 
   async function copyText(text) {
@@ -659,6 +814,9 @@
       grid.append(card.root);
       updateCard(post.id);
     }
+    document.addEventListener('pointerdown', (e) => {
+      if (openCard && !openCard.root.contains(e.target)) setOpen(openCard, false);
+    });
     $('#loading').remove();
     updateMe();
     updateProgress();
