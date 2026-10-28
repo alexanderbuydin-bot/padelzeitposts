@@ -1,6 +1,76 @@
 {
  "posts": [
   {
+   "id": "which-padel-monster-are-you",
+   "title": "Which padel monster are you",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/which-padel-monster-are-you/01.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/which-padel-monster-are-you/02.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/2_the_vampire.jpg"
+    },
+    {
+     "src": "posts/which-padel-monster-are-you/03.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/3_the_zombie.jpg"
+    },
+    {
+     "src": "posts/which-padel-monster-are-you/04.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/4_the_ghost.jpg"
+    },
+    {
+     "src": "posts/which-padel-monster-are-you/05.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/5_the_werewolf.jpg"
+    },
+    {
+     "src": "posts/which-padel-monster-are-you/06.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/6_the_witch.jpg"
+    },
+    {
+     "src": "posts/which-padel-monster-are-you/07.jpg",
+     "w": 896,
+     "h": 1200,
+     "small": "posts/which-padel-monster-are-you/07_s.jpg",
+     "sw": 540,
+     "dl": "posts/which-padel-monster-are-you/dl/7_tag_your_monster.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Which padel monster are you? 🎃👻\nHappy Halloween from Padelzeit!\n\n🧛 The Vampire – only books the 22:00 slot.\n🧟 The Zombie – hour three, still wants one more set.\n👻 The Ghost – vanishes from the group chat when it's time to book.\n🐺 The Werewolf – calm. Until the first lost point.\n🧙 The Witch – every close ball? Out.\n\nBe honest: which one are you? And tag your monster 👇\n\n#padel #padelislife #padelhumor #halloween #padelberlin #padelzeit",
+    "de": "Welches Padel-Monster bist du? 🎃👻\nHappy Halloween von Padelzeit!\n\n🧛 Der Vampir – bucht nur den 22-Uhr-Slot.\n🧟 Der Zombie – dritte Stunde, will trotzdem noch einen Satz.\n👻 Das Gespenst – verschwindet aus dem Gruppenchat, sobald gebucht werden muss.\n🐺 Der Werwolf – ganz ruhig. Bis zum ersten verlorenen Punkt.\n🧙 Die Hexe – jeder knappe Ball? Aus.\n\nSei ehrlich: Welches bist du? Und markier dein Monster 👇\n\n#padel #padelislife #padelhumor #halloween #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Humor-Post zu Halloween (31.10.2026), keine Fakten."
+   ]
+  },
+  {
    "id": "thank-you-10k-gold-balloons",
    "title": "Thank you 10K - Gold balloons",
    "isNew": true,
