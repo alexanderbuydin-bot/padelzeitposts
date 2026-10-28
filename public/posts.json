@@ -1,6 +1,345 @@
 {
  "posts": [
   {
+   "id": "your-lob-is-2-metres-too-short",
+   "title": "Your lob is 2 metres too short",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/2_short_lob.jpg"
+    },
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/3_last_2_metres.jpg"
+    },
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/4_bounce_first.jpg"
+    },
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/5_side_view.jpg"
+    },
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/6_move_up.jpg"
+    },
+    {
+     "src": "posts/your-lob-is-2-metres-too-short/07.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-lob-is-2-metres-too-short/07_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-lob-is-2-metres-too-short/dl/7_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Your lob is 2 metres too short. 🎯🎾\nThe lob is your way back to the net – but only if it lands in the right place.\n\n❌ Lands near the service line? That's a smash for them.\n✅ Aim for the last 2 metres before their back glass – now they have to turn and run.\n⚠️ It must bounce first: if it hits their back glass without bouncing, the point is theirs.\n⬆️ High enough to clear their racket, not just their heads.\n🏃 Once it's over them: move up to the net together.\n\nSave this for your next match and send it to your partner 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Dein Lob ist 2 Meter zu kurz. 🎯🎾\nDer Lob ist dein Weg zurück ans Netz – aber nur, wenn er an der richtigen Stelle landet.\n\n❌ Landet er an der Aufschlaglinie? Dann ist das ein Smash für die anderen.\n✅ Ziel: die letzten 2 Meter vor ihrer Rückwand – jetzt müssen sie sich umdrehen und laufen.\n⚠️ Er muss zuerst aufspringen: Trifft er ihre Rückwand ohne Bodenkontakt, geht der Punkt an sie.\n⬆️ Hoch genug, dass er über ihren Schläger geht – nicht nur über ihre Köpfe.\n🏃 Ist er über sie hinweg: gemeinsam nach vorn ans Netz.\n\nSpeicher dir das fürs nächste Match und schick es deinem Partner 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP Rules of Padel (gültig ab 01.01.2026): Ball, der ohne Aufspringen die gegnerische Wand trifft, verliert den Punkt (Regel 13 g). https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "LTA Padel, Lobs: Ziel hinter der Aufschlaglinie und vor dem Glas, so tief und hoch wie möglich; kurzer Lob lädt zum Smash ein. https://ltapadel.org.uk/play/padel-tips-and-techniques/lobs/",
+    "The Padel School: Lob = wirksamster Weg ans Netz; nach gutem Lob gemeinsam aufrücken (erst, wenn der Ball über den Netzspielern ist).",
+    "„Letzte 2 Meter\" ist eine Trainer-Faustregel, kein Regelmaß."
+   ]
+  },
+  {
+   "id": "every-net-team-has-3-holes",
+   "title": "Every net team has 3 holes",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/every-net-team-has-3-holes/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-net-team-has-3-holes/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-net-team-has-3-holes/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/every-net-team-has-3-holes/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-net-team-has-3-holes/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-net-team-has-3-holes/dl/2_the_middle.jpg"
+    },
+    {
+     "src": "posts/every-net-team-has-3-holes/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-net-team-has-3-holes/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-net-team-has-3-holes/dl/3_their_feet.jpg"
+    },
+    {
+     "src": "posts/every-net-team-has-3-holes/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-net-team-has-3-holes/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-net-team-has-3-holes/dl/4_over_their_heads.jpg"
+    },
+    {
+     "src": "posts/every-net-team-has-3-holes/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-net-team-has-3-holes/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-net-team-has-3-holes/dl/5_which_hole_when.jpg"
+    },
+    {
+     "src": "posts/every-net-team-has-3-holes/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-net-team-has-3-holes/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-net-team-has-3-holes/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Every net team has 3 holes. 🕳️🎾\nWhen they own the net, a hard drive just comes back. Find the holes instead:\n\n1️⃣ The middle – hit between them. They hesitate (\"Mine?\" \"Yours?\") and their angles shrink.\n2️⃣ Their feet – the chiquita: a slow, low ball that makes them volley up while you move in.\n3️⃣ Over their heads – the lob sends both of them back to the glass.\n\nRule of thumb: glued to the net → lob. Further back → feet. Split wide → middle.\nAnd: no chiquita with your back to the glass.\n\nSave it and send it to your partner 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Jedes Team am Netz hat 3 Löcher. 🕳️🎾\nWenn sie das Netz besetzen, kommt ein harter Drive einfach zurück. Such lieber die Löcher:\n\n1️⃣ Die Mitte – spiel zwischen die beiden. Sie zögern („Meiner?\" „Deiner?\") und ihre Winkel werden kleiner.\n2️⃣ Ihre Füße – die Chiquita: ein langsamer, flacher Ball, den sie nach oben volleyen müssen, während du aufrückst.\n3️⃣ Über ihre Köpfe – der Lob schickt beide zurück ans Glas.\n\nFaustregel: kleben am Netz → Lob. Stehen weiter hinten → Füße. Stehen weit auseinander → Mitte.\nUnd: keine Chiquita mit dem Rücken am Glas.\n\nSpeichern und deinem Partner schicken 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "LTA Padel Glossar: Chiquita = weicher Ball von hinten an die Füße der Gegner am Netz. https://www.ltapadel.org.uk/play/padel-glossary-what-do-bandeja-vibora-and-chiquita-mean/",
+    "The Padel School: Chiquita ist langsam, zwingt zum Volley nach oben und gibt Zeit zum Aufrücken; nicht mit dem Rücken am Glas spielen.",
+    "LTA Padel: die Mitte ist oft das lohnendste Ziel. Lob, Füße und Mitte sind die klassischen Ziele gegen ein Team am Netz.",
+    "„Welches Loch wann\" ist eine Trainer-Faustregel, keine Statistik."
+   ]
+  },
+  {
+   "id": "imagine-a-rope-between-you",
+   "title": "Imagine a rope between you",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/imagine-a-rope-between-you/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/imagine-a-rope-between-you/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/imagine-a-rope-between-you/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/imagine-a-rope-between-you/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/imagine-a-rope-between-you/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/imagine-a-rope-between-you/dl/2_both_up_or_back.jpg"
+    },
+    {
+     "src": "posts/imagine-a-rope-between-you/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/imagine-a-rope-between-you/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/imagine-a-rope-between-you/dl/3_slide_together.jpg"
+    },
+    {
+     "src": "posts/imagine-a-rope-between-you/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/imagine-a-rope-between-you/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/imagine-a-rope-between-you/dl/4_the_hole.jpg"
+    },
+    {
+     "src": "posts/imagine-a-rope-between-you/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/imagine-a-rope-between-you/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/imagine-a-rope-between-you/dl/5_lobbed.jpg"
+    },
+    {
+     "src": "posts/imagine-a-rope-between-you/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/imagine-a-rope-between-you/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/imagine-a-rope-between-you/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Imagine a rope between you. 🪢🎾\nThe simplest positioning rule in padel: you move as one.\n\n⬆️ Both up or both back – never one at the net and one at the back.\n➡️ Ball goes right? Both slide right.\n🎯 The player on the ball side covers the line, the partner closes the middle.\n🕳️ One up, one back leaves a diagonal hole – exactly where the next ball goes.\n🔁 Lobbed? If one goes back, both go back. Then up again – together.\n\nSend this to the partner who always stays back 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Stell dir ein Seil zwischen euch vor. 🪢🎾\nDie einfachste Stellungsregel im Padel: Ihr bewegt euch als Einheit.\n\n⬆️ Beide vorn oder beide hinten – nie einer am Netz und einer hinten.\n➡️ Ball geht nach rechts? Beide rutschen nach rechts.\n🎯 Wer auf der Ballseite steht, deckt die Linie, der Partner schließt die Mitte.\n🕳️ Einer vorn, einer hinten lässt ein diagonales Loch – genau dorthin geht der nächste Ball.\n🔁 Lob über euch? Muss einer zurück, gehen beide zurück. Und dann wieder gemeinsam vor.\n\nSchick das dem Partner, der immer hinten bleibt 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Padel Addict, „Cómo cubrir la red\": Bild des Seils, das Paar verschiebt sich als Block; Ballseite deckt die Linie, Partner die Mitte. https://www.padeladdict.com/como-cubrir-la-red/",
+    "The Padel School: „einer vorn, einer hinten\" lässt eine große Lücke diagonal durch die Mitte.",
+    "Bewusst ohne Meterangabe zwischen den Partnern – dafür gibt es keinen Standard. Hinweis: Direkt nach dem Aufschlag steht das Aufschlagteam kurz „einer vorn, einer hinten\", bis der Aufschläger nachrückt."
+   ]
+  },
+  {
+   "id": "glass-is-in-mesh-is-out",
+   "title": "Glass is in, mesh is out",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/glass-is-in-mesh-is-out/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/glass-is-in-mesh-is-out/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/2_serve_zone.jpg"
+    },
+    {
+     "src": "posts/glass-is-in-mesh-is-out/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/3_their_box.jpg"
+    },
+    {
+     "src": "posts/glass-is-in-mesh-is-out/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/4_glass_is_in.jpg"
+    },
+    {
+     "src": "posts/glass-is-in-mesh-is-out/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/5_mesh_is_fault.jpg"
+    },
+    {
+     "src": "posts/glass-is-in-mesh-is-out/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/6_three_targets.jpg"
+    },
+    {
+     "src": "posts/glass-is-in-mesh-is-out/07.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/glass-is-in-mesh-is-out/07_s.jpg",
+     "sw": 540,
+     "dl": "posts/glass-is-in-mesh-is-out/dl/7_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Glass is in. Mesh is out. 🧱🎾\nWhat happens after your serve bounces:\n\n✅ Serve from behind the service line: bounce it, hit it at waist height or below, one foot on the ground.\n✅ Diagonally into their box – the lines count as in.\n✅ After the bounce it may hit the side or back glass – still a good serve.\n❌ If it touches the metal mesh before the second bounce, it's a fault. Even after the glass.\n👀 Beside the service box there's only about 1 m of glass – the other 6 m are mesh.\n\nThree targets to mix: glass, T, body. But first: serve deep.\n\nSave it for your next match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Glas ist drin. Gitter ist aus. 🧱🎾\nWas nach dem Aufspringen deines Aufschlags passiert:\n\n✅ Aufschlag hinter der Aufschlaglinie: Ball aufspringen lassen, auf Hüfthöhe oder darunter treffen, ein Fuß am Boden.\n✅ Diagonal ins gegnerische Feld – die Linien zählen als drin.\n✅ Nach dem Aufspringen darf er an die Seiten- oder Rückwand aus Glas – der Aufschlag ist trotzdem gut.\n❌ Berührt er vor dem zweiten Aufspringen das Metallgitter, ist es ein Fehler. Auch nach dem Glas.\n👀 Neben dem Aufschlagfeld gibt es nur etwa 1 m Glas – die anderen 6 m sind Gitter.\n\nDrei Ziele zum Abwechseln: Glas, T, Körper. Aber zuerst: tief aufschlagen.\n\nSpeichern fürs nächste Match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP Rules of Padel (gültig ab 01.01.2026), Regeln 6 und 7: hinter der Aufschlaglinie aufspringen lassen, Treffpunkt auf/unter Hüfthöhe, mindestens ein Fuß am Boden, diagonal, Linien zählen; Regel 7.1(e): Fehler, wenn der Ball nach dem Aufspringen im Feld „touches the metallic fence around the court before the second bounce\" (gilt auch nach Glaskontakt). https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "FIP-Platzmaße: Aufschlaglinie 6,95 m vom Netz (3,05 m von der Rückwand); Seitenwand die ersten 4 m ab Rückwand fest/Glas, dann Gitter → neben dem Aufschlagfeld ca. 0,95 m Glas und 6 m Gitter. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Reglas-del-Padel.pdf",
+    "Aufschlagziele Glas / T / Körper und „Tiefe zuerst\": LTA Padel, The Padel School; Martín-Miguel et al., Padel Scientific Journal 4(1), 2026, https://doi.org/10.17398/2952-2218.4.73",
+    "Hinweis: Auf Plätzen mit Stufe ist das Glas neben dem Feld nur 2 m hoch – trifft ein hoch abspringender Aufschlag darüber das Gitter, ist es ein Fehler."
+   ]
+  },
+  {
+   "id": "the-safest-shot-in-padel",
+   "title": "The safest shot in padel",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/the-safest-shot-in-padel/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-safest-shot-in-padel/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-safest-shot-in-padel/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/the-safest-shot-in-padel/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-safest-shot-in-padel/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-safest-shot-in-padel/dl/2_more_room.jpg"
+    },
+    {
+     "src": "posts/the-safest-shot-in-padel/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-safest-shot-in-padel/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-safest-shot-in-padel/dl/3_lower_net.jpg"
+    },
+    {
+     "src": "posts/the-safest-shot-in-padel/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-safest-shot-in-padel/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-safest-shot-in-padel/dl/4_two_walls.jpg"
+    },
+    {
+     "src": "posts/the-safest-shot-in-padel/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-safest-shot-in-padel/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-safest-shot-in-padel/dl/5_down_the_line.jpg"
+    },
+    {
+     "src": "posts/the-safest-shot-in-padel/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-safest-shot-in-padel/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-safest-shot-in-padel/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "The safest shot in padel. ↗️🎾\nNot sure where to hit from the back? Go cross-court – or down the middle.\n\n📏 Up to 2.4 m more room: corner to corner is 22.4 m, straight down the line 20 m.\n🥅 The net is a little lower in the middle: 88 cm vs 92 cm at the posts.\n🧱 It ends near two walls – side glass and back glass are harder to read.\n⚠️ Down the line is the risk shot: shorter, over the higher part of the net, close to the side wall. Use it when it's open.\n\nSave it for your next match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Der sicherste Schlag im Padel. ↗️🎾\nUnsicher, wohin von hinten? Spiel cross – oder durch die Mitte.\n\n📏 Bis zu 2,4 m mehr Platz: Ecke zu Ecke sind es 22,4 m, die Linie entlang 20 m.\n🥅 Das Netz ist in der Mitte etwas niedriger: 88 cm statt 92 cm an den Pfosten.\n🧱 Der Ball endet nah an zwei Wänden – Seitenglas und Rückwand sind schwerer zu lesen.\n⚠️ Die Linie entlang ist der Risikoschlag: kürzer, über den höheren Teil des Netzes, nah an der Seitenwand. Spiel ihn, wenn sie offen ist.\n\nSpeichern fürs nächste Match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP Rules of Padel (2026): Court 10 × 20 m; Netz 0,88 m in der Mitte, höchstens 0,92 m an den Enden. Diagonale √(10² + 20²) = 22,36 m – größtmögliche Strecke, echte Cross-Bälle sind kürzer. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "Padel Addict, „Jugar cruzado en el pádel\": längerer Weg, etwas niedrigeres Netz, Gegner muss aus zwei Wänden verteidigen; die Linie ist riskanter. https://www.padeladdict.com/jugar-cruzado-en-el-padel/",
+    "LTA Padel: die Mitte ist oft das lohnendste Ziel – deshalb „cross oder Mitte\"."
+   ]
+  },
+  {
    "id": "which-padel-monster-are-you",
    "title": "Which padel monster are you",
    "isNew": true,

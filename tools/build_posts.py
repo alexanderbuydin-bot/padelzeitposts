@@ -23,6 +23,11 @@ SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else Path.home() / 'Desktop' / 'Pos
 
 # (Ordnername, neu?) – oben steht, was zuerst angezeigt wird
 ORDER = [
+    ('Your lob is 2 metres too short', True),
+    ('Every net team has 3 holes', True),
+    ('Imagine a rope between you', True),
+    ('Glass is in, mesh is out', True),
+    ('The safest shot in padel', True),
     ('Which padel monster are you', True),
     ('What your partner says vs what they mean', True),
     ('The 5 stages of losing a padel match', True),
