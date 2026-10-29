@@ -1,6 +1,349 @@
 {
  "posts": [
   {
+   "id": "why-you-re-always-late-at-the-net",
+   "title": "Why you're always late at the net",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/why-you-re-always-late-at-the-net/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-you-re-always-late-at-the-net/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-you-re-always-late-at-the-net/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/why-you-re-always-late-at-the-net/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-you-re-always-late-at-the-net/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-you-re-always-late-at-the-net/dl/2_racket_up.jpg"
+    },
+    {
+     "src": "posts/why-you-re-always-late-at-the-net/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-you-re-always-late-at-the-net/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-you-re-always-late-at-the-net/dl/3_head_up.jpg"
+    },
+    {
+     "src": "posts/why-you-re-always-late-at-the-net/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-you-re-always-late-at-the-net/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-you-re-always-late-at-the-net/dl/4_racket_down.jpg"
+    },
+    {
+     "src": "posts/why-you-re-always-late-at-the-net/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-you-re-always-late-at-the-net/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-you-re-always-late-at-the-net/dl/5_low_and_on_toes.jpg"
+    },
+    {
+     "src": "posts/why-you-re-always-late-at-the-net/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-you-re-always-late-at-the-net/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-you-re-always-late-at-the-net/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Why you're always late at the net. ⏱️🎾\nIt starts before the ball even comes – with your ready position.\n\n✅ Racket up and in front of you – at the height you'll hit, between chest and face.\n✅ Racket head up, not flat. A flat racket is a classic volley mistake.\n❌ Racket down at your waist? A fast volley is already past you.\n✅ Knees slightly bent, weight on the balls of your feet.\n💡 Stay a step or two off the net – close enough to volley, far enough to cover the lob.\n\nSave it and send it to your partner 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Warum du am Netz immer zu spät bist. ⏱️🎾\nEs beginnt, bevor der Ball überhaupt kommt – mit deiner Grundstellung.\n\n✅ Schläger hoch und vor dem Körper – auf der Höhe, auf der du triffst, zwischen Brust und Gesicht.\n✅ Schlägerkopf nach oben, nicht flach. Ein flacher Schläger ist ein klassischer Volley-Fehler.\n❌ Schläger unten an der Hüfte? Dann ist ein schneller Volley schon an dir vorbei.\n✅ Knie leicht gebeugt, Gewicht auf den Fußballen.\n💡 Bleib ein, zwei Schritte vom Netz weg – nah genug für den Volley, weit genug für den Lob.\n\nSpeichern und deinem Partner schicken 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "The Padel School, Ready position at the net: Schläger oben und vor dem Körper, auf Treffhöhe – sonst zu spät und mit offener Fläche. https://thepadelschool.com/padel-tips/ready-position-at-net",
+    "The Padel School, The padel volley: flacher (waagerechter) Schläger als häufiger Volley-Fehler. https://thepadelschool.com/padel-tips/the-padel-volley",
+    "Babolat, Padel techniques: Knie leicht gebeugt, Gewicht auf den Fußballen; Abstand zum Netz als Faustregel (etwa 2 m), kein Standard – deshalb „ein, zwei Schritte\". https://www.babolat.com/gb/news-articles-blog-padel-techniques/padel-techniques.html",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Analyse-Grafik selbst gezeichnet (pz-promo/src/coachposts/eyeSlides.tsx)."
+   ]
+  },
+  {
+   "id": "your-volley-is-a-punch-not-a-swing",
+   "title": "Your volley is a punch, not a swing",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/your-volley-is-a-punch-not-a-swing/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-volley-is-a-punch-not-a-swing/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-volley-is-a-punch-not-a-swing/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/your-volley-is-a-punch-not-a-swing/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-volley-is-a-punch-not-a-swing/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-volley-is-a-punch-not-a-swing/dl/2_short_take_back.jpg"
+    },
+    {
+     "src": "posts/your-volley-is-a-punch-not-a-swing/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-volley-is-a-punch-not-a-swing/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-volley-is-a-punch-not-a-swing/dl/3_in_front.jpg"
+    },
+    {
+     "src": "posts/your-volley-is-a-punch-not-a-swing/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-volley-is-a-punch-not-a-swing/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-volley-is-a-punch-not-a-swing/dl/4_head_up.jpg"
+    },
+    {
+     "src": "posts/your-volley-is-a-punch-not-a-swing/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-volley-is-a-punch-not-a-swing/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-volley-is-a-punch-not-a-swing/dl/5_step_in.jpg"
+    },
+    {
+     "src": "posts/your-volley-is-a-punch-not-a-swing/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-volley-is-a-punch-not-a-swing/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-volley-is-a-punch-not-a-swing/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Your volley is a punch, not a swing. 👊🎾\n\n✅ Short take-back: the racket turns back with your shoulders – never further. Block it.\n✅ Meet the ball out in front of your body.\n✅ Firm wrist, racket head up. Low ball? Bend your knees – don't drop the head.\n✅ Step in – your weight moves towards the net.\n✅ Continental grip for every volley.\n\nSave it for your next match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Dein Volley ist ein Stoß, kein Schwung. 👊🎾\n\n✅ Kurz ausholen: Der Schläger geht mit den Schultern zurück – nie weiter. Blocken.\n✅ Den Ball vor dem Körper treffen.\n✅ Festes Handgelenk, Schlägerkopf oben. Tiefer Ball? Knie beugen – nicht den Kopf fallen lassen.\n✅ Reinsteigen – dein Gewicht geht Richtung Netz.\n✅ Kontinentalgriff bei jedem Volley.\n\nSpeichern fürs nächste Match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "LTA Padel, Volleys: Treffpunkt vor dem Körper, festes Handgelenk, Schlägerkopf oben, mit dem Gegenfuß reinsteigen. https://www.ltapadel.org.uk/play/padel-tips-and-techniques/volleys/",
+    "The Padel School, The padel volley: kurze Ausholbewegung (Schulterdrehung, nicht hinter die Schulter), blocken statt schwingen, Kontinentalgriff, leicht offene Fläche. https://thepadelschool.com/padel-tips/the-padel-volley",
+    "Tiefe Bälle: Knie beugen statt Schlägerkopf fallen lassen (LTA und The Padel School).",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Analyse-Grafik selbst gezeichnet (pz-promo/src/coachposts/eyeSlides.tsx)."
+   ]
+  },
+  {
+   "id": "the-tiny-hop-before-every-shot",
+   "title": "The tiny hop before every shot",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/2_timing.jpg"
+    },
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/3_small_and_light.jpg"
+    },
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/4_balls_of_feet.jpg"
+    },
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/5_push_off.jpg"
+    },
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/6_mistakes.jpg"
+    },
+    {
+     "src": "posts/the-tiny-hop-before-every-shot/07.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-tiny-hop-before-every-shot/07_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-tiny-hop-before-every-shot/dl/7_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "The tiny hop before every shot. 🦘🎾\nIt's called the split step – and it's why good players never look late.\n\n⏱️ Time it so you land the moment your opponent hits.\n🪶 Keep it small and light – a hop, not a jump.\n👟 Land on the balls of your feet, heels up.\n↔️ Then push off – left, right or forward.\n\nToo early? You're flat-footed again when they hit. Too late? You can't change direction. At the net and at the back – before every shot.\n\nSave it and try it in your next match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Der kleine Hüpfer vor jedem Schlag. 🦘🎾\nEr heißt Split-Step – und deshalb wirken gute Spieler nie zu spät.\n\n⏱️ Timing: Du landest genau, wenn dein Gegner trifft.\n🪶 Klein und leicht – ein Hüpfer, kein Sprung.\n👟 Auf den Fußballen landen, Fersen oben.\n↔️ Dann abdrücken – nach links, rechts oder vorn.\n\nZu früh? Dann stehst du wieder flach, wenn sie treffen. Zu spät? Dann kannst du die Richtung nicht mehr wechseln. Am Netz und hinten – vor jedem Schlag.\n\nSpeichern und im nächsten Match ausprobieren 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "The Padel School, Skills: padel footwork – Split-Step kleiner, leichter und schneller als im Tennis, Landung auf den Fußballen. https://thepadelschool.com/post/skills-padel-footwork",
+    "The Padel School, How to move your feet – vor jedem gegnerischen Schlag; Fehler: kein Split-Step, Fersen am Boden, falsches Timing (zu früh = wieder flach, zu spät = kein Richtungswechsel). https://thepadelschool.com/padel-tips/how-to-move-your-feet",
+    "Keine Padel-Studie zur Split-Step-Mechanik gefunden – Timing-Studien gibt es nur zu Tennis/Badminton; hier Trainerwissen.",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Analyse-Grafik selbst gezeichnet (pz-promo/src/coachposts/eyeSlides.tsx)."
+   ]
+  },
+  {
+   "id": "why-pros-don-t-smash-this-ball",
+   "title": "Why pros don't smash this ball",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/2_turn_sideways.jpg"
+    },
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/3_eye_level.jpg"
+    },
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/4_slice_across.jpg"
+    },
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/5_free_arm.jpg"
+    },
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/6_aim_deep.jpg"
+    },
+    {
+     "src": "posts/why-pros-don-t-smash-this-ball/07.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/why-pros-don-t-smash-this-ball/07_s.jpg",
+     "sw": 540,
+     "dl": "posts/why-pros-don-t-smash-this-ball/dl/7_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Why pros don't smash this ball. 🎯🎾\nNot every lob is a smash. The bandeja keeps you at the net – control first, power later.\n\n✅ Turn sideways early, racket up.\n✅ Free arm up – for balance and your shoulder turn.\n✅ Meet it in front at about eye level – lower than a smash, arm not fully stretched.\n✅ Slightly open face, high to low – finish across your body, like wrapping a scarf.\n✅ Aim deep: into the corners or down the middle.\n\nSave it for your next match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Warum Profis diesen Ball nicht smashen. 🎯🎾\nNicht jeder Lob ist ein Smash. Die Bandeja hält dich am Netz – erst Kontrolle, dann Power.\n\n✅ Früh seitlich drehen, Schläger hoch.\n✅ Freier Arm oben – für Balance und Schulterdrehung.\n✅ Vor dem Körper treffen, etwa auf Augenhöhe – tiefer als beim Smash, Arm nicht ganz gestreckt.\n✅ Leicht offene Schlagfläche, von oben nach unten – Ausschwung quer vor den Körper, wie beim Schal-Umlegen.\n✅ Tief zielen: in die Ecken oder durch die Mitte.\n\nSpeichern fürs nächste Match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "LTA Padel, Overheads – bandeja and the smash: früh seitlich drehen, Schläger hoch, leicht offene Fläche, Slice von oben nach unten, Ausschwung quer vor den Körper („wie ein Schal\"); Kontrollschlag, um das Netz zu halten. https://ltapadel.org.uk/play/padel-tips-and-techniques/overheads-bandeja-and-the-smash/",
+    "The Padel School, Is your bandeja too bouncy: Treffpunkt vor dem Körper etwa auf Stirn-/Augenhöhe, tiefer als der Smash. https://thepadelschool.com/padel-tips/is-your-bandeja-too-bouncy",
+    "The Padel School, Bandeja secrets: tief in die Ecken (das Glas bremst den Ball) oder durch die Mitte – kein festes „immer cross\". https://thepadelschool.com/padel-tips/bandeja-secrets",
+    "Bewusst NICHT „freie Hand zeigt auf den Ball\" (nur ein Shop-Blog, umstritten) – stattdessen „für Balance und Schulterdrehung\".",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Analyse-Grafik selbst gezeichnet (pz-promo/src/coachposts/eyeSlides.tsx)."
+   ]
+  },
+  {
+   "id": "don-t-run-to-the-glass",
+   "title": "Don't run to the glass",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/don-t-run-to-the-glass/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/don-t-run-to-the-glass/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/don-t-run-to-the-glass/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/don-t-run-to-the-glass/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/don-t-run-to-the-glass/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/don-t-run-to-the-glass/dl/2_racket_back.jpg"
+    },
+    {
+     "src": "posts/don-t-run-to-the-glass/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/don-t-run-to-the-glass/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/don-t-run-to-the-glass/dl/3_leave_space.jpg"
+    },
+    {
+     "src": "posts/don-t-run-to-the-glass/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/don-t-run-to-the-glass/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/don-t-run-to-the-glass/dl/4_where_it_comes_out.jpg"
+    },
+    {
+     "src": "posts/don-t-run-to-the-glass/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/don-t-run-to-the-glass/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/don-t-run-to-the-glass/dl/5_in_front.jpg"
+    },
+    {
+     "src": "posts/don-t-run-to-the-glass/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/don-t-run-to-the-glass/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/don-t-run-to-the-glass/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Don't run to the glass. 🧱🎾\nGo where the ball comes out.\n\n✅ Turn early, racket back – before the ball hits the glass.\n✅ Leave space. Too close and the ball jams you – too much space beats too little.\n✅ Follow the rebound, not the spot where it hits the glass.\n✅ Hit it in front of your body. Waist to chest = control.\n\nSave it for your next match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit",
+    "de": "Lauf nicht zum Glas. 🧱🎾\nGeh dorthin, wo der Ball herauskommt.\n\n✅ Früh drehen, Schläger zurück – bevor der Ball das Glas trifft.\n✅ Platz lassen. Zu nah und der Ball klemmt dich ein – lieber zu viel Platz als zu wenig.\n✅ Dem Abprall folgen, nicht dem Punkt, an dem er das Glas trifft.\n✅ Vor dem Körper treffen. Hüfte bis Brust = Kontrolle.\n\nSpeichern fürs nächste Match 👇\n\n#padel #padelislife #padeltips #padelcoach #padelberlin #padelzeit"
+   },
+   "sources": [
+    "LTA Padel, How to play off the back glass: früh seitlich drehen und ausholen, tief gehen, von unten nach oben schwingen. https://www.ltapadel.org.uk/play/padel-tips-and-techniques/how-to-play-off-the-back-glass-in-padel",
+    "The Padel School, Struggling with the back glass: Platz zum Glas lassen (zu viel ist besser als zu wenig), dorthin gehen, wo der Ball nach dem Abprall hinkommt – nicht zum Aufprallpunkt. https://thepadelschool.com/post/learn-struggling-with-the-back-glass-padel",
+    "The Padel School, Back glass common errors: zu nah ans Glas / zum Aufprallpunkt laufen, spätes Ausholen, Treffpunkt hinter dem Körper; Höhenzonen Hüfte–Brust = Kontrolle. https://thepadelschool.com/padel-tips/padel-back-glass-common-errors",
+    "Regel: Der Ball muss vor dem Glas auf dem Boden aufspringen (Weg Boden → Glas → Spieler).",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Analyse-Grafik selbst gezeichnet (pz-promo/src/coachposts/eyeSlides.tsx)."
+   ]
+  },
+  {
    "id": "your-lob-is-2-metres-too-short",
    "title": "Your lob is 2 metres too short",
    "isNew": true,
