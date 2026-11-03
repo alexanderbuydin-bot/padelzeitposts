@@ -1,6 +1,340 @@
 {
  "posts": [
   {
+   "id": "the-middle-ball-has-an-owner",
+   "title": "The middle ball has an owner",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/the-middle-ball-has-an-owner/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-middle-ball-has-an-owner/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-middle-ball-has-an-owner/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/the-middle-ball-has-an-owner/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-middle-ball-has-an-owner/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-middle-ball-has-an-owner/dl/2_diagonal.jpg"
+    },
+    {
+     "src": "posts/the-middle-ball-has-an-owner/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-middle-ball-has-an-owner/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-middle-ball-has-an-owner/dl/3_forehand.jpg"
+    },
+    {
+     "src": "posts/the-middle-ball-has-an-owner/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-middle-ball-has-an-owner/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-middle-ball-has-an-owner/dl/4_talk.jpg"
+    },
+    {
+     "src": "posts/the-middle-ball-has-an-owner/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-middle-ball-has-an-owner/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-middle-ball-has-an-owner/dl/5_lefty.jpg"
+    },
+    {
+     "src": "posts/the-middle-ball-has-an-owner/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/the-middle-ball-has-an-owner/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/the-middle-ball-has-an-owner/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "The middle ball has an owner. 🎾\nMost points between two partners are lost in the same place: the middle.\n\n1️⃣ The diagonal player takes it: the ball comes from the opponent diagonally opposite you? It's yours – your partner covers the line.\n2️⃣ No clear diagonal? The forehand takes it. Two right-handers: the player on the left has the forehand in the middle.\n3️⃣ Decide before, call it during: agree on the middle before the first point – then call every middle ball.\n\nPlaying with a lefty? Then both forehands point to the middle – settle it before you start.\n\nSend this to your partner 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Der Ball in der Mitte hat einen Besitzer. 🎾\nDie meisten Punkte zwischen zwei Partnern gehen an derselben Stelle verloren: in der Mitte.\n\n1️⃣ Der diagonale Spieler nimmt ihn: Kommt der Ball vom Gegner schräg gegenüber? Dann ist es deiner – dein Partner deckt die Linie.\n2️⃣ Keine klare Diagonale? Die Vorhand nimmt ihn. Zwei Rechtshänder: Wer links steht, hat die Vorhand in der Mitte.\n3️⃣ Vorher absprechen, im Spiel ansagen: Klärt die Mitte vor dem ersten Punkt – und sagt dann jeden Ball an.\n\nSpielst du mit Linkshänder? Dann zeigen beide Vorhände in die Mitte – klärt das vor dem Start.\n\nSchick das deinem Partner 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Padel Addict, ¿De quién es la bola del medio en el fondo de la pista? – Diagonal-Regel als Grundregel. https://www.padeladdict.com/de-quien-es-la-bola-del-medio-en-el-fondo-de-la-pista/",
+    "Padel Addict (Trainer Rodri Ovide), Cómo resolver pelotas al centro de la pista – gleiche Regel am Netz und hinten. https://www.padeladdict.com/como-resolver-pelotas-centro-de-la-pista/",
+    "The Padel School, Moving as a pair – Mitte „usually but not always the forehand player\". https://thepadelschool.com/padel-tips/moving-as-a-pair",
+    "All for Padel (Trainer Alberto Pulido): Linkshänder rechts – beide Vorhände zur Mitte, vorher absprechen. https://allforpadel.com/en/blog/which-side-of-the-court-should-i-play-on-n439",
+    "Es gibt keine offizielle Regel; Diagonal- und Vorhand-Regel können verschiedene Spieler treffen – deshalb „vorher absprechen\".",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides.tsx)."
+   ]
+  },
+  {
+   "id": "4-words-that-win-you-points",
+   "title": "4 words that win you points",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/4-words-that-win-you-points/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/4-words-that-win-you-points/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/4-words-that-win-you-points/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/4-words-that-win-you-points/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/4-words-that-win-you-points/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/4-words-that-win-you-points/dl/2_mine.jpg"
+    },
+    {
+     "src": "posts/4-words-that-win-you-points/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/4-words-that-win-you-points/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/4-words-that-win-you-points/dl/3_yours.jpg"
+    },
+    {
+     "src": "posts/4-words-that-win-you-points/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/4-words-that-win-you-points/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/4-words-that-win-you-points/dl/4_switch.jpg"
+    },
+    {
+     "src": "posts/4-words-that-win-you-points/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/4-words-that-win-you-points/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/4-words-that-win-you-points/dl/5_leave_it.jpg"
+    },
+    {
+     "src": "posts/4-words-that-win-you-points/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/4-words-that-win-you-points/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/4-words-that-win-you-points/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "4 words that win you points. 🗣️🎾\nSilent pairs lose the middle. Talk early – while your partner prepares, not when they hit.\n\n1️⃣ “Mine!” – in Spain: ¡Mía!\n2️⃣ “Yours!” – ¡Tuya!\n3️⃣ “Switch!” – ¡Cambio! Lob over your partner? You run back for it, your partner crosses to your side.\n4️⃣ “Leave it!” – ¡Deja! It's going out – or into your back glass without a bounce? Don't touch it.\n\nBonus: your partner turns for a lob? Tell them where the opponents are – “Net!” or “Back!”\n\nSend this to the partner who never talks 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "4 Wörter, die dir Punkte bringen. 🗣️🎾\nStumme Paare verlieren die Mitte. Sagt früh an – während der Partner ausholt, nicht erst beim Treffen.\n\n1️⃣ „Meiner!\" – in Spanien: ¡Mía!\n2️⃣ „Deiner!\" – ¡Tuya!\n3️⃣ „Wechsel!\" – ¡Cambio! Lob über deinen Partner? Du läufst zurück, dein Partner wechselt auf deine Seite.\n4️⃣ „Lass ihn!\" – ¡Deja! Der Ball geht ins Aus – oder ohne Aufsprung an eure Rückwand? Nicht berühren.\n\nBonus: Dein Partner dreht sich zum Lob um? Sag ihm, wo die Gegner stehen – „Netz!\" oder „Hinten!\"\n\nSchick das dem Partner, der nie redet 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "The Padel School, Padel doubles strategy: „Call the ball early – mine or yours\" und Ansage beim Seitenwechsel. https://thepadelschool.com/post/learn-padel-doubles-strategy",
+    "The Padel School, You must talk with your partner: Ansage während der Partner ausholt; beim Lob sagen, wo die Gegner stehen („net\"/„back\"). https://thepadelschool.com/padel-tips/you-must-talk-with-your-partner",
+    "Wlingua, Padel vocabulary in Spanish: ¡Mía!, ¡Tuya!, ¡Déjala! https://learn.spanish.wlingua.com/padel-vocabulary-in-spanish/",
+    "Tienda Padel Point (Shop-Blog): ¡Cambio!, ¡Voy!, ¡Deja! https://www.tiendapadelpoint.com/senales-verbales-efectivas-padel",
+    "FIP-Regeln: Ball, der ohne Aufsprung die Wand des Gegners trifft, ist für den Schlagenden verloren – deshalb „Lass ihn!\". https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides.tsx)."
+   ]
+  },
+  {
+   "id": "40-40-who-receives",
+   "title": "40-40 Who receives",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/40-40-who-receives/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/40-40-who-receives/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/40-40-who-receives/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/40-40-who-receives/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/40-40-who-receives/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/40-40-who-receives/dl/2_the_rule.jpg"
+    },
+    {
+     "src": "posts/40-40-who-receives/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/40-40-who-receives/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/40-40-who-receives/dl/3_pick_returner.jpg"
+    },
+    {
+     "src": "posts/40-40-who-receives/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/40-40-who-receives/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/40-40-who-receives/dl/4_no_winner.jpg"
+    },
+    {
+     "src": "posts/40-40-who-receives/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/40-40-who-receives/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/40-40-who-receives/dl/5_star_point.jpg"
+    },
+    {
+     "src": "posts/40-40-who-receives/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/40-40-who-receives/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/40-40-who-receives/dl/6_your_turn.jpg"
+    }
+   ],
+   "caption": {
+    "en": "40–40. Who receives? 🎯\nOne point decides the game – and most pairs decide too late.\n\n📏 The rule: at 40–40 the receiving pair chooses the side, right or left. Whoever stands there returns – no switching.\n🧠 Pick your returner before the match: who returns best today? Not in a panic at 40–40.\n🎾 Don't go for the winner: in 418 golden points on the 2023 World Padel Tour, the most common ending was an error.\n⭐ New in 2026: the Star Point – two advantages first, at the third deuce one deciding point. Used on Premier Padel and the FIP tours.\n\nWho receives in your team? Tag your partner and settle it 👇\n\n#padel #padelislife #padeltips #goldenpoint #padelberlin #padelzeit",
+    "de": "40:40. Wer nimmt den Return? 🎯\nEin Punkt entscheidet das Spiel – und die meisten Paare entscheiden zu spät.\n\n📏 Die Regel: Beim Golden Point wählt das rückschlagende Paar die Seite, rechts oder links. Wer dort steht, returniert – kein Tauschen.\n🧠 Leg deinen Returnspieler vor dem Match fest: Wer returniert heute am besten? Nicht in Panik bei 40:40.\n🎾 Spiel nicht auf den Winner: Bei 418 Golden Points der World Padel Tour 2023 endete der Punkt am häufigsten mit einem Fehler.\n⭐ Neu seit 2026: der Star Point – erst zweimal Vorteil, beim dritten Einstand entscheidet ein Punkt. Gespielt auf Premier Padel und den FIP-Touren.\n\nWer nimmt bei euch den Return? Markier deinen Partner 👇\n\n#padel #padelislife #padeltips #goldenpoint #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP Rules of Padel (gültig ab 01.01.2026), Regel 1: Advantage, Star Point oder Golden Point; beim Golden Point wählt das rückschlagende Paar die Seite, Positionen dürfen nicht getauscht werden. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf (spanische Fassung: https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Reglas-del-Padel.pdf)",
+    "FIP, Introducing the Star Point (Dez. 2025): Einstand → Vorteil → 2. Einstand → Vorteil → 3. Einstand → entscheidender Punkt; ab 2026 Premier Padel, CUPRA FIP Tour u. a. https://www.padelfip.com/2025/12/between-innovation-and-tradition-introducing-the-star-point-the-scoring-system-that-appeals-to-everyone/",
+    "418 Golden Points der World Padel Tour 2023 – häufigstes Punktende: Fehler. https://revista-ebalonmano.unex.es/index.php/ebalonmano/article/view/2388",
+    "Returnspieler vorher festlegen: Tienda Padel Point (Shop-Blog) https://www.tiendapadelpoint.com/gestion-punto-oro-padel ; Profi-Muster: Padel Addict https://www.padeladdict.com/factores-clave-punto-de-oro-marbella/",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides.tsx). Logos auf zwei Schlägern im Anzeigetafel-Bild wegretuschiert."
+   ]
+  },
+  {
+   "id": "how-padel-came-to-europe",
+   "title": "How padel came to Europe",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/how-padel-came-to-europe/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-padel-came-to-europe/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-padel-came-to-europe/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/how-padel-came-to-europe/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-padel-came-to-europe/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-padel-came-to-europe/dl/2_acapulco_1969.jpg"
+    },
+    {
+     "src": "posts/how-padel-came-to-europe/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-padel-came-to-europe/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-padel-came-to-europe/dl/3_marbella_1974.jpg"
+    },
+    {
+     "src": "posts/how-padel-came-to-europe/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-padel-came-to-europe/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-padel-came-to-europe/dl/4_tennis_stars.jpg"
+    },
+    {
+     "src": "posts/how-padel-came-to-europe/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-padel-came-to-europe/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-padel-came-to-europe/dl/5_federation_1991.jpg"
+    },
+    {
+     "src": "posts/how-padel-came-to-europe/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-padel-came-to-europe/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-padel-came-to-europe/dl/6_spain_today.jpg"
+    }
+   ],
+   "caption": {
+    "en": "How padel came to Europe. 🌴🎾\nPart 2 of our padel story – it started with a holiday.\n\n🇲🇽 1969: Enrique Corcuera builds the first padel court at his house in Acapulco.\n🇪🇸 1974: Alfonso de Hohenlohe visits him, adapts court and rules – and builds Spain's first two courts at his Marbella Club.\n🎾 Tennis stars like Manolo Santana pick it up, tournaments spread along the Costa del Sol.\n🌍 1991: Argentina, Spain and Uruguay found the International Padel Federation in Madrid. The first World Championship follows in 1992.\n📈 Spain today: about 17,000 courts and 109,040 licensed players (2024).\n\nNext: how Argentina went padel-crazy. Follow so you don't miss part 3 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit",
+    "de": "Wie Padel nach Europa kam. 🌴🎾\nTeil 2 unserer Padel-Geschichte – alles begann mit einem Urlaub.\n\n🇲🇽 1969: Enrique Corcuera baut bei seinem Haus in Acapulco den ersten Padel-Court.\n🇪🇸 1974: Alfonso de Hohenlohe besucht ihn, passt Court und Regeln an – und baut Spaniens erste zwei Courts in seinem Marbella Club.\n🎾 Tennisstars wie Manolo Santana steigen ein, Turniere verbreiten sich an der Costa del Sol.\n🌍 1991: Argentinien, Spanien und Uruguay gründen in Madrid die Internationale Padel-Föderation. 1992 folgt die erste Weltmeisterschaft.\n📈 Spanien heute: rund 17.000 Courts und 109.040 lizenzierte Spieler (2024).\n\nAls Nächstes: Wie Argentinien padelverrückt wurde. Folge uns, damit du Teil 3 nicht verpasst 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP, Historia del pádel: 1969 Corcuera in Las Brisas/Acapulco; FIP-Gründung 12.07.1991 in Madrid (Argentinien, Spanien, Uruguay); 1. WM 1992 Madrid/Sevilla. https://www.padelfip.com/es/historia/",
+    "Materiales para la Historia del Deporte (UPM): 1974 Hohenlohe, erste zwei Courts im Marbella Club. https://polired.upm.es/index.php/materiales_historia_deporte/download/4140/4332/15805",
+    "Andalucia.com: Tennisszene inkl. Manolo Santana übernimmt den Sport, Turniere an der Costa del Sol (ohne Datum, Sekundärquelle). https://www.andalucia.com/sports/paddle.htm",
+    "FIP, Pádel en España 2024: rund 17.000 Courts, 109.040 Lizenzen. https://www.padelfip.com/es/2025/02/padel-en-espana-crecimiento-de-pistas-y-licencias-de-jugadores-en-2024-morcillo-estos-resultados-reflejan-el-trabajo-duro-de-los-ultimos-anos/",
+    "Hinweis: Die FIP schreibt für Hohenlohe nur „Anfang der 70er\"; 1974 ist die verbreitete Jahreszahl. Teil 1 = Post „Aus Platzmangel entstand eine Weltsportart\" (08.06.2026).",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides.tsx). Historische Szenen sind nachgestellt, keine Archivfotos."
+   ]
+  },
+  {
+   "id": "argentina-tore-down-car-parks-for-padel",
+   "title": "Argentina tore down car parks for padel",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/argentina-tore-down-car-parks-for-padel/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/argentina-tore-down-car-parks-for-padel/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/argentina-tore-down-car-parks-for-padel/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/argentina-tore-down-car-parks-for-padel/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/argentina-tore-down-car-parks-for-padel/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/argentina-tore-down-car-parks-for-padel/dl/2_mar_del_plata_1975.jpg"
+    },
+    {
+     "src": "posts/argentina-tore-down-car-parks-for-padel/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/argentina-tore-down-car-parks-for-padel/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/argentina-tore-down-car-parks-for-padel/dl/3_social_phenomenon.jpg"
+    },
+    {
+     "src": "posts/argentina-tore-down-car-parks-for-padel/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/argentina-tore-down-car-parks-for-padel/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/argentina-tore-down-car-parks-for-padel/dl/4_car_parks.jpg"
+    },
+    {
+     "src": "posts/argentina-tore-down-car-parks-for-padel/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/argentina-tore-down-car-parks-for-padel/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/argentina-tore-down-car-parks-for-padel/dl/5_glass_court_1989.jpg"
+    },
+    {
+     "src": "posts/argentina-tore-down-car-parks-for-padel/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/argentina-tore-down-car-parks-for-padel/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/argentina-tore-down-car-parks-for-padel/dl/6_bust_and_legend.jpg"
+    }
+   ],
+   "caption": {
+    "en": "They tore down car parks for padel. 🇦🇷🎾\nPart 3 of our padel story: Argentina's padel fever.\n\n1975: Julio Menditeguy, a regular in Marbella, brings padel to Argentina. Early courts: Mar del Plata's Ocean Club and Club Tortugas.\n1982: padel is a social phenomenon. 1988: Argentina founds the world's first national padel association.\nLate 80s – 90s: the fever is so big that car parks are torn down to build courts.\n1989: Jorge Galeotti from Mar del Plata builds the first removable glass court.\nThen a recession closes many courts – but Argentina gives the sport Fernando Belasteguín: World No. 1 for 16 years in a row (2002–2017).\n\nWhich country should be part 4? Tell us in the comments 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit",
+    "de": "Sie rissen Parkplätze für Padel ab. 🇦🇷🎾\nTeil 3 unserer Padel-Geschichte: Argentiniens Padel-Fieber.\n\n1975: Julio Menditeguy, Stammgast in Marbella, bringt Padel nach Argentinien. Erste Courts: Ocean Club in Mar del Plata und Club Tortugas.\n1982: Padel ist ein gesellschaftliches Phänomen. 1988: Argentinien gründet den ersten nationalen Padel-Verband der Welt.\nEnde der 80er bis 90er: Das Fieber ist so groß, dass Parkplätze für Courts abgerissen werden.\n1989: Jorge Galeotti aus Mar del Plata baut den ersten mobilen Glas-Court.\nDann schließt eine Rezession viele Courts – doch Argentinien schenkt dem Sport Fernando Belasteguín: 16 Jahre in Folge Weltranglistenerster (2002–2017).\n\nWelches Land soll Teil 4 werden? Schreib es in die Kommentare 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit"
+   },
+   "sources": [
+    "LTA Padel, History of padel: 1975 Julio Menditeguy bringt Padel nach Argentinien (Schreibweise variiert: Menditegui). https://ltapadel.org.uk/what-we-do/about-padel/history-of-padel",
+    "FIP, Historia del pádel: erste Courts Ocean Club Mar del Plata und Club Tortugas; 1989 Jorge Galeotti, erster mobiler Glas-Court. https://www.padelfip.com/es/historia/",
+    "FIP, Focus on Argentina (Mai 2024): 1982 „social phenomenon\", APA 1988 erster nationaler Padel-Verband der Welt. https://www.padelfip.com/2024/05/focus-on-argentina-courts-events-legends-padel-is-a-social-phenomenon/",
+    "Tiempo Argentino: Boom 1987–1995, Parkplätze für Courts abgerissen, Rezession; die oft zitierten „4 Millionen Spieler\" gelten als Mythos – bewusst NICHT verwendet. https://www.tiempoar.com.ar/nota/redencion-presidencial-para-un-deporte-que-fue-boom-en-los-noventa",
+    "Argentina.gob.ar: Belasteguín 16 Jahre in Folge Nr. 1 (2002–2017; Zählungen nur der WPT-Ära weichen ab). https://www.argentina.gob.ar/node/233552",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides.tsx). Historische Szenen sind nachgestellt, keine Archivfotos; Nummernschilder unscharf gemacht."
+   ]
+  },
+  {
    "id": "why-you-re-always-late-at-the-net",
    "title": "Why you're always late at the net",
    "isNew": true,
