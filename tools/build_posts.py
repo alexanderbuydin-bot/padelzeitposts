@@ -23,6 +23,10 @@ SRC = Path(sys.argv[1]) if len(sys.argv) > 1 else Path.home() / 'Desktop' / 'Pos
 
 # (Ordnername, neu?) – oben steht, was zuerst angezeigt wird
 ORDER = [
+    ('Stand on the wrong side on purpose', True),
+    ('Every point starts here', True),
+    ('Your serve is only half the job', True),
+    ('Find the weaker player', True),
     ('The middle ball has an owner', True),
     ('4 words that win you points', True),
     ('40-40 Who receives', True),

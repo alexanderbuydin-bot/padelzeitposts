@@ -1,6 +1,277 @@
 {
  "posts": [
   {
+   "id": "stand-on-the-wrong-side-on-purpose",
+   "title": "Stand on the wrong side on purpose",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/stand-on-the-wrong-side-on-purpose/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/stand-on-the-wrong-side-on-purpose/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/stand-on-the-wrong-side-on-purpose/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/stand-on-the-wrong-side-on-purpose/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/stand-on-the-wrong-side-on-purpose/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/stand-on-the-wrong-side-on-purpose/dl/2_normal.jpg"
+    },
+    {
+     "src": "posts/stand-on-the-wrong-side-on-purpose/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/stand-on-the-wrong-side-on-purpose/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/stand-on-the-wrong-side-on-purpose/dl/3_australian.jpg"
+    },
+    {
+     "src": "posts/stand-on-the-wrong-side-on-purpose/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/stand-on-the-wrong-side-on-purpose/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/stand-on-the-wrong-side-on-purpose/dl/4_server.jpg"
+    },
+    {
+     "src": "posts/stand-on-the-wrong-side-on-purpose/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/stand-on-the-wrong-side-on-purpose/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/stand-on-the-wrong-side-on-purpose/dl/5_risk.jpg"
+    },
+    {
+     "src": "posts/stand-on-the-wrong-side-on-purpose/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/stand-on-the-wrong-side-on-purpose/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/stand-on-the-wrong-side-on-purpose/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Stand on the wrong side. On purpose. 🇦🇺🎾\nThe Australian formation: your partner waits at the net on the SAME side as you.\n\n↔️ Normal: your partner stands at the net in the other half. The receiver's habit: crosscourt – away from the net player.\n🧱 The Australian: now your partner stands right in the path of that crosscourt return.\n🏃 You start next to the centre, serve – then run across to the empty side. You cover the line, your partner the middle.\n⚠️ The risk: you have further to run, so the line is open for a moment. Serve deep and move the second you hit.\n\n📊 In a 2021 study, national-level players used it on almost half their serves (46.9%), beginners on only 16.5%. Points won? No big difference – it's a tool, not magic.\n\nWhen to use it: you both want to stay on your favourite side, their crosscourt return hurts you – and your server is fast.\n\nTry it on one point and watch their faces 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Steh auf der falschen Seite. Mit Absicht. 🇦🇺🎾\nDie australische Formation: Dein Partner wartet am Netz auf DERSELBEN Seite wie du.\n\n↔️ Normal: Dein Partner steht am Netz in der anderen Hälfte. Die Gewohnheit des Rückschlägers: cross – weg vom Netzspieler.\n🧱 Australisch: Jetzt steht dein Partner genau in der Flugbahn dieses Cross-Returns.\n🏃 Du startest neben der Mitte, schlägst auf – und läufst auf die freie Seite. Du deckst die Linie, dein Partner die Mitte.\n⚠️ Das Risiko: Du hast den weiteren Weg, die Linie ist kurz offen. Schlag tief auf und lauf los, sobald du getroffen hast.\n\n📊 In einer Studie von 2021 nutzten Spieler auf nationalem Niveau sie bei fast jedem zweiten Aufschlag (46,9 %), Anfänger nur bei 16,5 %. Gewonnene Punkte? Kaum Unterschied – ein Werkzeug, keine Zauberei.\n\nWann? Wenn ihr beide auf eurer Lieblingsseite bleiben wollt, ihr Cross-Return euch wehtut – und euer Aufschläger schnell ist.\n\nProbier's bei einem Punkt – und schau in ihre Gesichter 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "PLoS ONE 2021, australische vs. konventionelle Aufschlagformation: Definition (Partner am Netz auf derselben Seite), Spieler auf nationalem Niveau 46,9 % der Aufschläge, Anfänger 16,5 %; der Aufschläger muss schneller und weiter laufen; kein signifikanter Unterschied bei gewonnenen Punkten. https://doi.org/10.1371/journal.pone.0250225",
+    "The Padel School, Serve formation – where to stand: Aufschläger startet neben dem T und läuft quer, um den Return entlang der Linie zu decken; der Partner deckt die Mitte; die meisten Profis nutzen sie vor allem, um auf ihrer Lieblingsseite zu bleiben. https://thepadelschool.com/padel-tips/serve-formation-where-to-stand",
+    "Padel Addict (Mai 2024), Saque a la australiana o saque clásico: der gewohnte Cross-Return läuft in den Netzspieler, Rückschläger weichen oft auf die Linie aus; Risiko = längerer Weg des Aufschlägers. https://www.padeladdict.com/saque-a-la-australiana-o-saque-clasico/",
+    "FIP Rules of Padel (ab 01.01.2026), Regel 3.2: Partner dürfen auf ihrer Seite beliebig stehen – die Formation ist erlaubt. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "LTA Padel, Serve: tief oder ins Seitenglas aufschlagen. https://ltapadel.org.uk/play/padel-tips-and-techniques/serve/",
+    "„Advanced players\" auf der Titelfolie = Spieler auf nationalem Niveau aus der PLoS-Studie. Bewusst NICHT „zwingt den Rückschläger\" – die Formation drängt nur zur Linie oder zum Lob.",
+    "Platzfoto von oben KI-generiert (Google Flow, Nano Banana Pro), Spielerfiguren/Pfeile/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides2.tsx)."
+   ]
+  },
+  {
+   "id": "every-point-starts-here",
+   "title": "Every point starts here",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/every-point-starts-here/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-point-starts-here/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-point-starts-here/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/every-point-starts-here/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-point-starts-here/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-point-starts-here/dl/2_server.jpg"
+    },
+    {
+     "src": "posts/every-point-starts-here/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-point-starts-here/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-point-starts-here/dl/3_net_player.jpg"
+    },
+    {
+     "src": "posts/every-point-starts-here/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-point-starts-here/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-point-starts-here/dl/4_receiver.jpg"
+    },
+    {
+     "src": "posts/every-point-starts-here/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-point-starts-here/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-point-starts-here/dl/5_receivers_partner.jpg"
+    },
+    {
+     "src": "posts/every-point-starts-here/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/every-point-starts-here/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/every-point-starts-here/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Every point starts here. 📍🎾\nFour positions to get right before the first ball.\n\n1️⃣ Server: behind the service line – then straight to the net, no pause.\n2️⃣ Net player: close to the net, in the other half from the server – ready to volley the return.\n3️⃣ Receiver: about a step behind the service line, roughly two steps in from the side glass.\n4️⃣ Receiver's partner: not at the net – back, next to the receiver. After a good return you move up together.\n\nBonus: in women's pro padel (Premier Padel 2025) more than half of all returns were lobs – 53.7%.\n\nWhich one do you get wrong? Send this to your partner 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Jeder Punkt beginnt hier. 📍🎾\nVier Positionen, die vor dem ersten Ball stimmen müssen.\n\n1️⃣ Aufschläger: hinter der Aufschlaglinie – dann direkt ans Netz, ohne Pause.\n2️⃣ Netzspieler: nah am Netz, in der anderen Hälfte als der Aufschläger – bereit, den Return zu volleyen.\n3️⃣ Rückschläger: etwa einen Schritt hinter der Aufschlaglinie, rund zwei Schritte von der Seitenwand entfernt.\n4️⃣ Partner des Rückschlägers: nicht am Netz – hinten, neben dem Rückschläger. Nach einem guten Return rückt ihr gemeinsam vor.\n\nBonus: Im Profi-Padel der Frauen (Premier Padel 2025) war mehr als jeder zweite Return ein Lob – 53,7 %.\n\nWelche Position machst du falsch? Schick das deinem Partner 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP Rules of Padel (ab 01.01.2026): Aufschlag von unten nach einem Aufsprung, Ball höchstens auf Hüfthöhe, hinter der Aufschlaglinie (Regel 6); alle anderen Spieler dürfen auf ihrer Seite beliebig stehen (Regel 3.2). https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "The Padel School, Moving as a pair: beide Rückschläger etwa einen Schritt hinter der Aufschlaglinie, rund zwei Schritte von der Seitenwand. https://thepadelschool.com/padel-tips/moving-as-a-pair",
+    "The Padel School, Essential padel return rules: der Partner steht hinten auf Höhe des Rückschlägers, nach gutem Return rücken beide gemeinsam vor. https://thepadelschool.com/post/essential-padel-return-rules",
+    "The Padel School, Skills to improve your padel serve: aufschlagen und ohne Pause ans Netz. https://thepadelschool.com/post/skills-improve-padel-serve",
+    "PLoS ONE 2021: in der konventionellen Formation steht der Partner des Aufschlägers nah am Netz in der anderen Hälfte. https://doi.org/10.1371/journal.pone.0250225",
+    "Premier Padel Frauen 2025 (1.138 Punkte): 53,7 % der Returns waren Lobs. https://doi.org/10.17398/2952-2218.4.73",
+    "Hinweis: Für den Abstand des Netzspielers gibt es keine verlässliche Zahl (Blogs: 1,5–4 m) – deshalb nur „nah am Netz\".",
+    "Platzfoto von oben KI-generiert (Google Flow, Nano Banana Pro), Spielerfiguren/Pfeile/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides2.tsx)."
+   ]
+  },
+  {
+   "id": "your-serve-is-only-half-the-job",
+   "title": "Your serve is only half the job",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/your-serve-is-only-half-the-job/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-serve-is-only-half-the-job/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-serve-is-only-half-the-job/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/your-serve-is-only-half-the-job/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-serve-is-only-half-the-job/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-serve-is-only-half-the-job/dl/2_serve_deep.jpg"
+    },
+    {
+     "src": "posts/your-serve-is-only-half-the-job/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-serve-is-only-half-the-job/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-serve-is-only-half-the-job/dl/3_go.jpg"
+    },
+    {
+     "src": "posts/your-serve-is-only-half-the-job/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-serve-is-only-half-the-job/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-serve-is-only-half-the-job/dl/4_split_step.jpg"
+    },
+    {
+     "src": "posts/your-serve-is-only-half-the-job/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-serve-is-only-half-the-job/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-serve-is-only-half-the-job/dl/5_first_volley.jpg"
+    },
+    {
+     "src": "posts/your-serve-is-only-half-the-job/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-serve-is-only-half-the-job/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-serve-is-only-half-the-job/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Your serve is only half the job. 🏃🎾\nThe other half: get to the net. In men's pro padel the serving pair kept the net in 65.9% of rallies.\n\n1️⃣ Serve deep – or into the side glass. It buys you time. Top women pros sent 65.4% of their serves into the side glass in 2025.\n2️⃣ Go straight away: no pause after the serve – move forward while the ball is still on their side.\n3️⃣ Split step when they hit: a small hop the moment the receiver hits – then you can go either way.\n4️⃣ First volley deep – then close in. Now you're two at the net.\n\nDo you follow your serve to the net? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Dein Aufschlag ist nur die halbe Arbeit. 🏃🎾\nDie andere Hälfte: ans Netz kommen. Im Profi-Padel der Männer hielt das aufschlagende Paar in 65,9 % der Ballwechsel das Netz.\n\n1️⃣ Tief aufschlagen – oder ins Seitenglas. Das verschafft dir Zeit. Die besten Frauen schlugen 2025 65,4 % ihrer Aufschläge ins Seitenglas.\n2️⃣ Sofort los: keine Pause nach dem Aufschlag – nach vorn, solange der Ball noch drüben ist.\n3️⃣ Split-Step, wenn sie schlagen: ein kleiner Hüpfer genau beim Return – dann kannst du in beide Richtungen.\n4️⃣ Erster Volley tief – dann aufrücken. Jetzt steht ihr zu zweit am Netz.\n\nGehst du nach dem Aufschlag ans Netz? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Escudero-Tena et al. 2023 (Perceptual and Motor Skills), World Padel Tour 2021: die Aufschläger hielten bei den Männern in 65,9 % der Ballwechsel das Netz; Winner meist aus der Netzzone, Fehler meist von hinten. https://doi.org/10.1177/00315125231194026",
+    "The Padel School, Skills to improve your padel serve: aufschlagen und ohne Pause ans Netz. https://thepadelschool.com/post/skills-improve-padel-serve",
+    "LTA Padel, Serve: tief oder ins Seitenglas aufschlagen. https://ltapadel.org.uk/play/padel-tips-and-techniques/serve/",
+    "Premier Padel Frauen 2025 (1.138 Punkte): 65,4 % der Aufschläge ins Seitenglas. https://doi.org/10.17398/2952-2218.4.73",
+    "The Padel School, When to move forward in padel: anhalten und Split-Step, wenn der Gegner schlägt. https://thepadelschool.com/padel-tips/when-to-move-forward-in-padel",
+    "FIP Rules of Padel (ab 01.01.2026), Regel 6: Aufschlag von unten nach Aufsprung, höchstens Hüfthöhe. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "„3–4 Schritte\" bewusst weggelassen – dafür gibt es keine belastbare Quelle.",
+    "Platzfoto von oben KI-generiert (Google Flow, Nano Banana Pro), Spielerfiguren/Pfeile/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides2.tsx)."
+   ]
+  },
+  {
+   "id": "find-the-weaker-player",
+   "title": "Find the weaker player",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/find-the-weaker-player/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/find-the-weaker-player/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/find-the-weaker-player/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/find-the-weaker-player/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/find-the-weaker-player/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/find-the-weaker-player/dl/2_spot_it.jpg"
+    },
+    {
+     "src": "posts/find-the-weaker-player/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/find-the-weaker-player/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/find-the-weaker-player/dl/3_feed.jpg"
+    },
+    {
+     "src": "posts/find-the-weaker-player/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/find-the-weaker-player/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/find-the-weaker-player/dl/4_fridge.jpg"
+    },
+    {
+     "src": "posts/find-the-weaker-player/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/find-the-weaker-player/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/find-the-weaker-player/dl/5_trap.jpg"
+    },
+    {
+     "src": "posts/find-the-weaker-player/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/find-the-weaker-player/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/find-the-weaker-player/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Find the weaker player. Then play him. 🎯🎾\nNot mean – tactics.\n\n1️⃣ Spot it early: watch the first games. The weak spot is usually the backhand.\n2️⃣ Send him the balls: more balls, more pressure – more errors.\n3️⃣ Put the other one in the fridge: no balls, no rhythm. Spanish coaches call it exactly that – the fridge.\n⚠️ The trap: don't overdo it. Feed only one player and his partner starts covering – mix it up and hit the side he just left.\n\nCoach's tip from Spain: focus on ONE player – it doesn't even have to be the weaker one.\n\nBe honest: who's the weaker one in your team? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Finde den schwächeren Spieler. Dann spiel ihn an. 🎯🎾\nNicht gemein – Taktik.\n\n1️⃣ Früh erkennen: Beobachte die ersten Spiele. Die Schwachstelle ist meist die Rückhand.\n2️⃣ Spiel ihm die Bälle zu: mehr Bälle, mehr Druck – mehr Fehler.\n3️⃣ Steck den anderen in den Kühlschrank: keine Bälle, kein Rhythmus. Spanische Trainer nennen es genau so – la nevera, den Kühlschrank.\n⚠️ Die Falle: Übertreib es nicht. Spielst du nur einen an, deckt sein Partner bald mit – wechsle ab und spiel auf die Seite, die er gerade verlassen hat.\n\nTrainertipp aus Spanien: Konzentrier dich auf EINEN Spieler – es muss nicht mal der schwächere sein.\n\nMal ehrlich: Wer ist bei euch der Schwächere? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "HEAD, Padel tactics to improve your game – Javier Casadesús (Technischer Direktor des spanischen Padelverbands): Schwächen früh erkennen, meist die Rückhand; auf EINEN Spieler konzentrieren, nicht unbedingt den schwächeren; der ignorierte Partner kommt „in den Kühlschrank\" und verliert den Rhythmus. https://www.head.com/rs/stories/padel-tactics-to-improve-your-game",
+    "Padel Point (Shop-Blog), Strategy: attacking the weaker player: Druck erhöht die Fehler des Schwächeren; abwechseln, um zu überraschen – wer übertreibt, lässt den Partner mitdecken. https://www.tiendapadelpoint.com/en/strategy-attacking-weaker-player-padel-en",
+    "Bewusst NICHT verwendet: „bei wichtigen Punkten besonders\" und „der Starke deckt die Mitte\" – nur in schwachen Blogs belegt.",
+    "Platzfoto von oben KI-generiert (Google Flow, Nano Banana Pro), Spielerfiguren/Pfeile/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides2.tsx)."
+   ]
+  },
+  {
    "id": "the-middle-ball-has-an-owner",
    "title": "The middle ball has an owner",
    "isNew": true,
