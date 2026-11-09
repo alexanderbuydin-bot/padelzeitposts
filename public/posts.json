@@ -1,6 +1,412 @@
 {
  "posts": [
   {
+   "id": "your-hardest-shot-is-their-easiest-ball",
+   "title": "Your hardest shot is their easiest ball",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/your-hardest-shot-is-their-easiest-ball/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-hardest-shot-is-their-easiest-ball/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-hardest-shot-is-their-easiest-ball/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/your-hardest-shot-is-their-easiest-ball/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-hardest-shot-is-their-easiest-ball/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-hardest-shot-is-their-easiest-ball/dl/2_glass.jpg"
+    },
+    {
+     "src": "posts/your-hardest-shot-is-their-easiest-ball/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-hardest-shot-is-their-easiest-ball/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-hardest-shot-is-their-easiest-ball/dl/3_net.jpg"
+    },
+    {
+     "src": "posts/your-hardest-shot-is-their-easiest-ball/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-hardest-shot-is-their-easiest-ball/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-hardest-shot-is-their-easiest-ball/dl/4_lob.jpg"
+    },
+    {
+     "src": "posts/your-hardest-shot-is-their-easiest-ball/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-hardest-shot-is-their-easiest-ball/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-hardest-shot-is-their-easiest-ball/dl/5_finish.jpg"
+    },
+    {
+     "src": "posts/your-hardest-shot-is-their-easiest-ball/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/your-hardest-shot-is-their-easiest-ball/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/your-hardest-shot-is-their-easiest-ball/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Your hardest shot is their easiest ball. 💥🎾\nPlacement beats power – especially from the back.\n\n🧱 The glass gives it back: drive it hard from the back and the ball bounces off their back glass – and comes back to them at a perfect height.\n📊 Winners come from the net: in World Padel Tour data most winners were hit at the net, most errors came from the back.\n🎈 Change the pace instead: lobs and soft balls make them work. A deep lob buys you time to take the net.\n🔥 Power? Only to finish – save the big hit for a clear winner.\n\nWho in your group still hits everything hard? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Dein härtester Schlag ist ihr leichtester Ball. 💥🎾\nPlatzierung schlägt Kraft – vor allem von hinten.\n\n🧱 Das Glas gibt ihn zurück: Drischst du von hinten, prallt der Ball von ihrer Rückwand ab – und kommt in perfekter Höhe zu ihnen zurück.\n📊 Winner kommen vom Netz: In Daten der World Padel Tour fielen die meisten Winner am Netz, die meisten Fehler von hinten.\n🎈 Wechsle lieber das Tempo: Lobs und weiche Bälle lassen sie arbeiten. Ein tiefer Lob verschafft dir Zeit, ans Netz zu kommen.\n🔥 Kraft? Nur zum Abschluss – heb dir den harten Schlag für den klaren Winner auf.\n\nWer in deiner Gruppe haut immer noch jeden Ball? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "LTA Padel (06.07.2026), Why placement beats power in padel: harte Schläge prallen vom Glas ab und kommen direkt zu den Gegnern zurück, die dann aus dem Mittelfeld angreifen; Kraft nur für klare Winner. https://www.ltapadel.org.uk/news/2026/july/why-placement-beats-power-in-padel/",
+    "HEAD, Padel tactics to improve your game – Javier Casadesús (Technischer Direktor des spanischen Padelverbands): Konstanz schlägt meist Kraft, kontrollierte Volleys statt Winner. https://www.head.com/rs/stories/padel-tactics-to-improve-your-game",
+    "The Padel School, The three most common padel tactics errors: zu hart schlagen ist Fehler Nr. 1; gute Gegner lassen den Ball einfach vom Glas kommen; Abhilfe: Tempowechsel mit Lobs und weichen Bällen. https://thepadelschool.com/padel-tips/the-three-most-common-padel-tactics-errors",
+    "LTA Padel, Lobs – Libby Fletcher (LTA-Nationaltrainerin der Frauen): der Lob als wichtigster Schlag; ein tiefer Lob verschafft Zeit, nach vorn zu kommen. https://ltapadel.org.uk/play/padel-tips-and-techniques/lobs/",
+    "Escudero-Tena et al. 2023 (Perceptual and Motor Skills), World Padel Tour 2021: Winner meist aus der Netzzone, Fehler meist von hinten. https://doi.org/10.1177/00315125231194026",
+    "Bewusst NICHT „Härter schlagen lässt dich verlieren\" – die Quellen sagen: Kraft ist OFT kontraproduktiv.",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro und 2.1), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides3.tsx). Markenzeichen auf Schuhen/Socken nachträglich entfernt."
+   ]
+  },
+  {
+   "id": "their-racket-tells-you-the-next-shot",
+   "title": "Their racket tells you the next shot",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/their-racket-tells-you-the-next-shot/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/their-racket-tells-you-the-next-shot/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/their-racket-tells-you-the-next-shot/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/their-racket-tells-you-the-next-shot/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/their-racket-tells-you-the-next-shot/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/their-racket-tells-you-the-next-shot/dl/2_low_open.jpg"
+    },
+    {
+     "src": "posts/their-racket-tells-you-the-next-shot/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/their-racket-tells-you-the-next-shot/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/their-racket-tells-you-the-next-shot/dl/3_high_back.jpg"
+    },
+    {
+     "src": "posts/their-racket-tells-you-the-next-shot/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/their-racket-tells-you-the-next-shot/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/their-racket-tells-you-the-next-shot/dl/4_turns_runs.jpg"
+    },
+    {
+     "src": "posts/their-racket-tells-you-the-next-shot/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/their-racket-tells-you-the-next-shot/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/their-racket-tells-you-the-next-shot/dl/5_move_early.jpg"
+    },
+    {
+     "src": "posts/their-racket-tells-you-the-next-shot/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/their-racket-tells-you-the-next-shot/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/their-racket-tells-you-the-next-shot/dl/6_save.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Their racket tells you the next shot. 👀🎾\nThree signs you can read before the ball is even hit.\n\n1️⃣ Low and open: racket below the ball, face open to the sky – a lob or a defensive ball is coming. Get ready to go back.\n2️⃣ High and back: racket drawn back above the ball – an attack is coming. Get ready to defend.\n3️⃣ After your lob: he turns and runs to his glass? Take the net. He stays facing you? An overhead is coming.\n\nThen move early: spot the sign while he prepares, do a small hop as he hits – and go.\n\nWho on your team reads the game best? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit",
+    "de": "Ihr Schläger verrät dir den nächsten Schlag. 👀🎾\nDrei Zeichen, die du lesen kannst, bevor der Ball überhaupt getroffen ist.\n\n1️⃣ Tief und offen: Schläger unter dem Ball, Schlagfläche zum Himmel geöffnet – ein Lob oder ein Abwehrball kommt. Mach dich bereit, nach hinten zu gehen.\n2️⃣ Hoch und weit hinten: Schläger über Ballhöhe weit ausgeholt – ein Angriff kommt. Mach dich bereit zu verteidigen.\n3️⃣ Nach deinem Lob: Er dreht sich um und läuft zu seinem Glas? Geh ans Netz. Er bleibt dir zugewandt? Ein Überkopfball kommt.\n\nDann früh bewegen: Zeichen erkennen, solange er ausholt, beim Treffpunkt ein kleiner Hüpfer – und los.\n\nWer liest bei euch das Spiel am besten? 👇\n\n#padel #padelislife #padeltips #padeltactics #padelberlin #padelzeit"
+   },
+   "sources": [
+    "The Padel School, Anticipate every shot from your opponent: Schlagfläche offen und unter dem Ball = Abwehrball oder Lob; Schläger über Ballhöhe ganz ausgeholt = Angriff. https://thepadelschool.com/padel-tips/anticipate-every-shot-from-your-opponent",
+    "The Padel School, Padel tactics against lobbers: kommt der Gegner unter den Ball, Lob erwarten und zurückgehen; schlägt er nach unten, auf einen Volley vorbereiten. https://thepadelschool.com/padel-tips/padel-tactics-against-lobbers",
+    "Red Bull, Padel lob – how to master the shot: dreht sich der Gegner nach deinem Lob um und läuft zum Glas, ans Netz; bleibt er dir zugewandt, Position halten und auf einen Überkopfball vorbereiten. https://www.redbull.com/gb-en/padel-lob-how-to-master-the-shot",
+    "The Padel School, When to move forward in padel: anhalten und Split-Step, wenn der Gegner schlägt. https://thepadelschool.com/padel-tips/when-to-move-forward-in-padel",
+    "Padel Point (Shop-Blog), Anticipate a defensive lob: tief am Glas, Schläger unten, Knie gebeugt → wahrscheinlich Lob (schwächere Quelle, nur ergänzend). https://www.tiendapadelpoint.com/en/anticipate-defensive-lob-padel-en",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro und 2.1), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides3.tsx). Markenzeichen auf Schuhen/Socken nachträglich entfernt."
+   ]
+  },
+  {
+   "id": "sweden-had-more-padel-halls-than-hockey-rinks",
+   "title": "Sweden had more padel halls than hockey rinks",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/sweden-had-more-padel-halls-than-hockey-rinks/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/sweden-had-more-padel-halls-than-hockey-rinks/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/sweden-had-more-padel-halls-than-hockey-rinks/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/sweden-had-more-padel-halls-than-hockey-rinks/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/sweden-had-more-padel-halls-than-hockey-rinks/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/sweden-had-more-padel-halls-than-hockey-rinks/dl/2_boom.jpg"
+    },
+    {
+     "src": "posts/sweden-had-more-padel-halls-than-hockey-rinks/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/sweden-had-more-padel-halls-than-hockey-rinks/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/sweden-had-more-padel-halls-than-hockey-rinks/dl/3_courts.jpg"
+    },
+    {
+     "src": "posts/sweden-had-more-padel-halls-than-hockey-rinks/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/sweden-had-more-padel-halls-than-hockey-rinks/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/sweden-had-more-padel-halls-than-hockey-rinks/dl/4_bust.jpg"
+    },
+    {
+     "src": "posts/sweden-had-more-padel-halls-than-hockey-rinks/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/sweden-had-more-padel-halls-than-hockey-rinks/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/sweden-had-more-padel-halls-than-hockey-rinks/dl/5_shops.jpg"
+    },
+    {
+     "src": "posts/sweden-had-more-padel-halls-than-hockey-rinks/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/sweden-had-more-padel-halls-than-hockey-rinks/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/sweden-had-more-padel-halls-than-hockey-rinks/dl/6_today.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Sweden had more padel halls than hockey rinks. 🇸🇪🎾\nPart 4 of our padel story: the boom – and the bust.\n\n2013: 7 padel halls. 2021: about 700 – almost twice as many as Sweden's 362 ice hockey halls.\n2019–2021: from a few hundred courts to more than 4,100 (booking platform MATCHi).\nOct 2022: the chain We Are Padel files for restructuring. By Sep 2023, 113 padel halls have gone bankrupt.\nAfter the crash, halls turn into stores and warehouses – one in Växjö is becoming a supermarket.\nToday: still around 4,200 courts and 600,000 players (FIP, 2024). The crash hit the hall owners more than the players.\n\nNext up, part 5: Italy. Which country should come after that? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit",
+    "de": "Schweden hatte mehr Padelhallen als Eishockeyhallen. 🇸🇪🎾\nTeil 4 unserer Padel-Geschichte: der Boom – und der Absturz.\n\n2013: 7 Padelhallen. 2021: rund 700 – fast doppelt so viele wie Schwedens 362 Eishockeyhallen.\n2019–2021: von wenigen Hundert Courts auf mehr als 4.100 (Buchungsplattform MATCHi).\nOkt. 2022: Die Kette We Are Padel beantragt ein Sanierungsverfahren. Bis Sep. 2023 gehen 113 Padelhallen pleite.\nNach dem Crash werden Hallen zu Läden und Lagern – eine in Växjö wird gerade zum Supermarkt.\nHeute: immer noch rund 4.200 Courts und 600.000 Spieler (FIP, 2024). Der Crash traf die Hallenbetreiber stärker als die Spieler.\n\nAls Nächstes, Teil 5: Italien. Welches Land soll danach kommen? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit"
+   },
+   "sources": [
+    "SVT (Okt. 2021): von 7 Padelhallen (2013) auf rund 700 (2021), fast doppelt so viele wie die 362 Eishockeyhallen (Zahlen des schwedischen Padelverbands). https://www.svt.se/sport/padel/sa-fick-sverige-700-padelhallar-dubbelt-sa-manga-som-ishallar",
+    "The Padel Paper, MATCHi-Report: mehr als 4.100 Courts 2021, +310 % seit 2019. https://thepadelpaper.com/part-two-of-our-matchi-report-finland-denmark-and-norway-follow-swedish-success-story/",
+    "Hinweis: Die Ausgangszahl 2019 ist umstritten (560 laut FT 2023, rund 1.000 laut MATCHi) – deshalb nur „wenige Hundert\".",
+    "padelalto (07.10.2022): We Are Padel (Ledap Group, kontrolliert von Triton) beantragt ein Sanierungsverfahren; bis zur Hälfte der rund 80 Standorte könnte schließen. https://padelalto.com/2022/10/07/we-are-padel-applies-for-corporate-restructuring-50-of-all-halls-could-close",
+    "SVT (2023, Daten von Creditsafe): 113 Padelhallen zwischen dem 1. Halbjahr 2022 und Sep. 2023 insolvent, 76 davon 2023. https://www.svt.se/nyheter/inrikes/man-kan-inte-bygga-en-idrott-pa-medelalders-man",
+    "Dagens PS (Aug. 2023): Hallen werden zu Läden und Lagern (Eslöv → Lager 157, Sjöbo teils Jysk, Staffanstorp lagert abgebaute Courts). https://www.dagensps.se/foretag/borjan-pa-slutet-padelhallar-blir-butiker-och-lager/",
+    "Willys/Cision (Sep. 2025): neuer Willys-Markt in Norremark, Växjö, in einer ehemaligen Padelhalle, Eröffnung geplant Sommer 2027 – deshalb „is becoming\". https://mb.cision.com/Main/5973/4234786/3669769.pdf",
+    "FIP (Feb. 2024), Focus on Sweden: rund 4.200 Courts, mehr als 1.050 Anlagen, rund 600.000 Spieler. https://www.padelfip.com/2024/02/focus-on-sweden-600000-players-over-4000-courts-and-the-next-gen-faces-the-worlds-best-young-players/",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro und 2.1), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides3.tsx). Markenzeichen auf Schuhen/Socken nachträglich entfernt. Historische und dokumentarische Szenen sind nachgestellt, keine Archivfotos."
+   ]
+  },
+  {
+   "id": "italy-went-from-20-padel-courts-to-10-000",
+   "title": "Italy went from 20 padel courts to 10,000",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/italy-went-from-20-padel-courts-to-10-000/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/italy-went-from-20-padel-courts-to-10-000/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/italy-went-from-20-padel-courts-to-10-000/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/italy-went-from-20-padel-courts-to-10-000/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/italy-went-from-20-padel-courts-to-10-000/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/italy-went-from-20-padel-courts-to-10-000/dl/2_2013.jpg"
+    },
+    {
+     "src": "posts/italy-went-from-20-padel-courts-to-10-000/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/italy-went-from-20-padel-courts-to-10-000/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/italy-went-from-20-padel-courts-to-10-000/dl/3_boom.jpg"
+    },
+    {
+     "src": "posts/italy-went-from-20-padel-courts-to-10-000/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/italy-went-from-20-padel-courts-to-10-000/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/italy-went-from-20-padel-courts-to-10-000/dl/4_rome.jpg"
+    },
+    {
+     "src": "posts/italy-went-from-20-padel-courts-to-10-000/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/italy-went-from-20-padel-courts-to-10-000/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/italy-went-from-20-padel-courts-to-10-000/dl/5_tennis_and_padel.jpg"
+    },
+    {
+     "src": "posts/italy-went-from-20-padel-courts-to-10-000/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/italy-went-from-20-padel-courts-to-10-000/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/italy-went-from-20-padel-courts-to-10-000/dl/6_today.jpg"
+    }
+   ],
+   "caption": {
+    "en": "Italy went from 20 padel courts to 10,000. 🇮🇹🎾\nPart 5 of our padel story.\n\n2013: about 20 courts in the whole country.\n2019: about 1,000 (Banca Ifis estimate). 2022: 7,798 (FIP).\n2022: the Italian Tennis Federation becomes the Italian Tennis and Padel Federation – and the same year the pro tour comes to Rome's Foro Italico for the first Italy Major.\nRome alone now has 1,563 courts – only Madrid and Barcelona have more.\nJune 2025: 10,017 courts in 3,716 clubs and about 1.5 million players. Second only to Spain.\n\nPart 6: how the court got its glass. Have you played padel in Italy? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit",
+    "de": "Italien ging von 20 Padel-Courts auf 10.000. 🇮🇹🎾\nTeil 5 unserer Padel-Geschichte.\n\n2013: rund 20 Courts im ganzen Land.\n2019: rund 1.000 (Schätzung Banca Ifis). 2022: 7.798 (FIP).\n2022: Der italienische Tennisverband wird zum Tennis- und Padelverband – und im selben Jahr kommt die Profitour zum ersten Italy Major ins Foro Italico nach Rom.\nAllein Rom hat heute 1.563 Courts – nur Madrid und Barcelona haben mehr.\nJuni 2025: 10.017 Courts in 3.716 Clubs und rund 1,5 Millionen Spieler. Nur Spanien hat mehr.\n\nTeil 6: wie der Court sein Glas bekam. Hast du schon mal in Italien Padel gespielt? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Il Post (12.11.2022), Padel: dati e numeri – rund 20 Courts im Jahr 2013 (Zahl eines italienischen Branchenportals). https://www.ilpost.it/2022/11/12/padel-dati-numeri/",
+    "Banca Ifis, Sport System Padel (Mai 2022): Schätzung rund 1.000 Courts und 0,2 Mio. Spieler 2019, rund 6.100 Courts und 1 Mio. Spieler 2022. https://www.bancaifis.it/app/uploads/2022/10/Sport-System_Padel_20220519.pdf",
+    "FIP (Juni 2025): 10.017 Courts (45 % in der Halle) in 3.716 Clubs, 2022 noch 7.798; Italien Nr. 2 hinter Spanien (17.000), rund 1,5 Mio. Spieler; Rom 1.563 Courts, weltweit Platz 3 nach Madrid und Barcelona. https://www.padelfip.com/2025/06/the-padel-boom-shows-no-signs-of-stopping-italy-surpasses-10000-courts-second-only-to-spain/",
+    "Hinweis: Die Zahlen für 2022 schwanken je nach Quelle (6.038 / rund 6.100 geschätzt / 7.798) – auf der Folie steht deshalb die Quelle neben jeder Zahl.",
+    "OA Sport (Okt. 2022): die FIT wird zur FITP (Federazione Italiana Tennis e Padel). https://www.oasport.it/2022/10/tennis-la-fit-cambia-nome-diventa-fitp-e-include-il-padel/",
+    "Wikipedia, 2022 Italy Major: 23.–29.05.2022 im Foro Italico, Sieger Galán/Lebrón; seitdem jedes Jahr. https://en.wikipedia.org/wiki/2022_Italy_Major",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro und 2.1), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides3.tsx). Markenzeichen auf Schuhen/Socken nachträglich entfernt. Historische und dokumentarische Szenen sind nachgestellt, keine Archivfotos."
+   ]
+  },
+  {
+   "id": "how-the-padel-court-got-its-glass",
+   "title": "How the padel court got its glass",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/how-the-padel-court-got-its-glass/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-the-padel-court-got-its-glass/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-the-padel-court-got-its-glass/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/how-the-padel-court-got-its-glass/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-the-padel-court-got-its-glass/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-the-padel-court-got-its-glass/dl/2_walls_1969.jpg"
+    },
+    {
+     "src": "posts/how-the-padel-court-got-its-glass/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-the-padel-court-got-its-glass/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-the-padel-court-got-its-glass/dl/3_mesh.jpg"
+    },
+    {
+     "src": "posts/how-the-padel-court-got-its-glass/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-the-padel-court-got-its-glass/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-the-padel-court-got-its-glass/dl/4_glass_1989.jpg"
+    },
+    {
+     "src": "posts/how-the-padel-court-got-its-glass/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-the-padel-court-got-its-glass/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-the-padel-court-got-its-glass/dl/5_panoramic.jpg"
+    },
+    {
+     "src": "posts/how-the-padel-court-got-its-glass/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/how-the-padel-court-got-its-glass/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/how-the-padel-court-got-its-glass/dl/6_brick.jpg"
+    }
+   ],
+   "caption": {
+    "en": "How the padel court got its glass. 🏟️🎾\nPart 6 of our padel story.\n\n1969, Acapulco: Enrique Corcuera's first court – 20 × 10 m, closed in by solid walls, 3 m high at the ends and 2 m at the sides.\nLater: the side walls were lowered and topped with wire mesh.\n1989, Mar del Plata: Jorge Galeotti builds the first glass court you could take apart and move.\nToday: panoramic show courts without posts behind the glass – so the TV cameras see everything.\nAnd the rules still allow solid walls instead of glass: 3 m of wall plus 1 m of mesh at each end.\n\nPart 7: the racket. Glass or brick – what did you learn on? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit",
+    "de": "Wie der Padel-Court zu seinem Glas kam. 🏟️🎾\nTeil 6 unserer Padel-Geschichte.\n\n1969, Acapulco: Enrique Corcueras erster Court – 20 × 10 m, umschlossen von festen Mauern, 3 m hoch an den Stirnseiten, 2 m an den Seiten.\nSpäter: Die Seitenmauern wurden niedriger und bekamen Drahtgitter obendrauf.\n1989, Mar del Plata: Jorge Galeotti baut den ersten Glas-Court, den man zerlegen und transportieren konnte.\nHeute: Panorama-Courts ohne Pfosten hinter dem Glas – damit die TV-Kameras alles sehen.\nUnd die Regeln erlauben immer noch feste Wände statt Glas: 3 m Wand plus 1 m Gitter an jeder Stirnseite.\n\nTeil 7: der Schläger. Glas oder Mauer – worauf hast du angefangen? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit"
+   },
+   "sources": [
+    "FIP, History: 1969 ein Court von 20 × 10 m mit 3 m hohen Mauern bei Corcueras Haus in Acapulco; 1989 baut Jorge Galeotti (Mar del Plata) den „Crystal Palace\", laut FIP der erste zerlegbare, transportable Glas-Court – bewusst NICHT „der erste Glas-Court\". https://www.padelfip.com/history/",
+    "Sánchez-Alcaraz (2013), Historia del pádel: Mauern 3 m an den Stirnseiten, 2 m an den Seiten; die Seitenmauern wurden später niedriger und mit Drahtgitter erhöht. https://polired.upm.es/index.php/materiales_historia_deporte/article/download/4140/4332/15805",
+    "La Nación (Apr. 2021): alte Zement-Courts wurden durch Glas ersetzt – für 1969 ist „Zement\" aber nicht belegt, deshalb „feste Mauern\". https://www.lanacion.com.ar/deportes/tenis/padel-como-la-tecnologia-reactivo-a-este-deporte-lo-hizo-mas-atractivo-y-prolongo-la-vida-util-de-nid22042021/",
+    "MejorSet / FIP (März 2023): MejorSet entwickelte nach eigener Angabe den ersten vollständigen Panorama-Court für die TV-Sicht – Firmenangabe ohne Jahr, deshalb nicht datiert. https://www.padelfip.com/wp-content/uploads/2023/03/21-marzo-_-Press-Release-Mejor-Set-Parnership-with-International-Padel-Federation-ENGL.pdf",
+    "FIP Rules of Padel (ab 01.01.2026): Wände aus Glas oder festem Material (z. B. Mauerwerk) erlaubt; an den Stirnseiten 3 m Wand plus 1 m Gitter. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro und 2.1), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides3.tsx). Markenzeichen auf Schuhen/Socken nachträglich entfernt. Historische und dokumentarische Szenen sind nachgestellt, keine Archivfotos."
+   ]
+  },
+  {
+   "id": "from-a-wooden-board-to-carbon",
+   "title": "From a wooden board to carbon",
+   "isNew": true,
+   "slides": [
+    {
+     "src": "posts/from-a-wooden-board-to-carbon/01.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/from-a-wooden-board-to-carbon/01_s.jpg",
+     "sw": 540,
+     "dl": "posts/from-a-wooden-board-to-carbon/dl/1_cover.jpg"
+    },
+    {
+     "src": "posts/from-a-wooden-board-to-carbon/02.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/from-a-wooden-board-to-carbon/02_s.jpg",
+     "sw": 540,
+     "dl": "posts/from-a-wooden-board-to-carbon/dl/2_platform_tennis.jpg"
+    },
+    {
+     "src": "posts/from-a-wooden-board-to-carbon/03.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/from-a-wooden-board-to-carbon/03_s.jpg",
+     "sw": 540,
+     "dl": "posts/from-a-wooden-board-to-carbon/dl/3_wood_1990s.jpg"
+    },
+    {
+     "src": "posts/from-a-wooden-board-to-carbon/04.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/from-a-wooden-board-to-carbon/04_s.jpg",
+     "sw": 540,
+     "dl": "posts/from-a-wooden-board-to-carbon/dl/4_foam_core.jpg"
+    },
+    {
+     "src": "posts/from-a-wooden-board-to-carbon/05.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/from-a-wooden-board-to-carbon/05_s.jpg",
+     "sw": 540,
+     "dl": "posts/from-a-wooden-board-to-carbon/dl/5_rules.jpg"
+    },
+    {
+     "src": "posts/from-a-wooden-board-to-carbon/06.jpg",
+     "w": 1080,
+     "h": 1440,
+     "small": "posts/from-a-wooden-board-to-carbon/06_s.jpg",
+     "sw": 540,
+     "dl": "posts/from-a-wooden-board-to-carbon/dl/6_strap.jpg"
+    }
+   ],
+   "caption": {
+    "en": "From a wooden board to carbon. 🪵🎾\nPart 7 of our padel story: the racket.\n\nThe start: the first padel rackets were borrowed from American platform tennis – shorter, and without strings.\nThe 1990s: many still played with a solid wooden board – about 26 mm thick.\nLate 20th century: a foam core (EVA) with fibreglass faces – later carbon.\nThe rules today: max. 45.5 cm long, 26 cm wide, 38 mm thick. Holes in the middle: 9–13 mm. No weight limit.\nAnd the wrist strap is mandatory: a non-elastic cord, max. 35 cm.\n\nWhich story should be part 8? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit",
+    "de": "Vom Holzbrett zum Carbon. 🪵🎾\nTeil 7 unserer Padel-Geschichte: der Schläger.\n\nDer Anfang: Die ersten Padel-Schläger stammten aus dem amerikanischen Platform Tennis – kürzer und ohne Saiten.\nDie 1990er: Viele spielten noch mit einem massiven Holzbrett – rund 26 mm dick.\nEnde des 20. Jahrhunderts: ein Schaumkern (EVA) mit Glasfaser-Oberflächen – später Carbon.\nDie Regeln heute: höchstens 45,5 cm lang, 26 cm breit, 38 mm dick. Löcher in der Mitte: 9–13 mm. Kein Gewichtslimit.\nUnd die Handschlaufe ist Pflicht: eine nicht dehnbare Schnur, höchstens 35 cm.\n\nWelche Geschichte soll Teil 8 werden? 👇\n\n#padel #padelislife #padelhistory #padelberlin #padelzeit"
+   },
+   "sources": [
+    "Sánchez-Alcaraz (2013), Historia del pádel: die ersten Schläger kamen aus dem US-Platform-Tennis – kürzer und ohne Saiten. https://polired.upm.es/index.php/materiales_historia_deporte/article/download/4140/4332/15805",
+    "La Nación (Apr. 2021): Lasaigues – in den 1990ern noch Holzbrett; Rovaletti (Bullpadel) – ab Ende der 1990er EVA-Kern mit Glasfaser, dann Carbon; Holzschläger 26 mm dick, heute bis 38 mm; Belasteguín spielte in seiner Karriere erst Holz, dann Carbon. https://www.lanacion.com.ar/deportes/tenis/padel-como-la-tecnologia-reactivo-a-este-deporte-lo-hizo-mas-atractivo-y-prolongo-la-vida-util-de-nid22042021/",
+    "Hinweis: Händler datieren den EVA-Kern schon in die 1980er – deshalb auf der Folie nur „Late 20th century\".",
+    "FIP Rules of Padel (ab 01.01.2026): Länge max. 45,5 cm, Kopfbreite max. 26 cm, Dicke max. 38 mm (2,5 % Toleranz); Löcher in der Mitte 9–13 mm; Handschlaufe Pflicht, nicht dehnbar, max. 35 cm; kein Gewichtslimit. https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "Fotos KI-generiert (Google Flow, Nano Banana Pro und 2.1), Grafik/Text selbst gesetzt (pz-promo/src/coachposts/cleanSlides3.tsx). Markenzeichen auf Schuhen/Socken nachträglich entfernt. Historische und dokumentarische Szenen sind nachgestellt, keine Archivfotos."
+   ]
+  },
+  {
    "id": "stand-on-the-wrong-side-on-purpose",
    "title": "Stand on the wrong side on purpose",
    "isNew": true,
