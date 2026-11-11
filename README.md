@@ -2,7 +2,10 @@
 
 Kleine Seite fürs Team: Instagram-Karussells ansehen, mit 👍 **Posten** oder 👎 **Nicht posten** abstimmen und kurz kommentieren.
 
-- Kein Login: Beim ersten Öffnen fragt die Seite nach dem Vornamen, er bleibt im Browser gespeichert.
+- Kein Login: Beim ersten Öffnen fragt die Seite nach dem Vornamen, er bleibt im Browser gespeichert –
+  doppelt: im localStorage und in zwei Cookies (`pz_name`, `pz_client`), die der Server für 400 Tage setzt und
+  bei jedem Besuch erneuert. Safari auf dem iPhone löscht den localStorage nach sieben Tagen ohne Besuch;
+  die Cookies vom Server bleiben, die Seite stellt Name und Stimmen daraus wieder her.
 - Eine Stimme pro Person und Post. Nochmal tippen nimmt sie zurück, der andere Knopf wechselt sie.
 - Stimmen und Kommentare der anderen erscheinen von selbst (alle 20 Sekunden).
 - Unter jedem Post: **Alle Fotos** lädt die Slides (1080 px, Qualität 92) – am Telefon über das Teilen-Menü
@@ -52,8 +55,17 @@ sonst fängt der Post bei null an.
 ## Aufbau
 
 - `server.js` – liefert `public/` aus und die API (`/api/state`, `/api/vote`, `/api/comment`,
-  `/api/comment/delete`, `/api/status`, `/api/rename`). Speichert alles in einer JSON-Datei.
+  `/api/comment/delete`, `/api/status`, `/api/rename`, `/api/me` zum Merken des Namens). Speichert alles in
+  einer JSON-Datei.
 - `public/` – die Seite (`index.html`, `style.css`, `app.js`, `zip.js` für den ZIP-Download am PC) und die
   Bilder unter `posts/`.
 - `tools/build_posts.py` – erzeugt die Web-Bilder (1080 px und 540 px), die Download-Fassung unter
   `posts/<post>/dl/` (Dateinamen wie im Post-Ordner) und `posts.json`.
+
+## Viele Posts, wenig Speicher
+
+Die Seite legt die Slides nur für Karten nahe am Bildschirm an (`mountSlides` / `scan` in `app.js`) und gibt sie
+wieder frei, sobald man weiterscrollt. Bis November 2026 lagen alle Slides aller Posts gleichzeitig in der Seite
+(64 Posts = 347 Bilder, davon 64 sofort in voller Größe geladen, dazu 64 Wisch-Leisten und 66 Weichzeichner) –
+Safari auf dem iPhone beendete den Tab dafür mit „Es ist wiederholt ein Problem aufgetreten". Wer an den Karten
+baut: keine Bilder außerhalb von `loadAround` setzen und keinen `backdrop-filter` je Karte.

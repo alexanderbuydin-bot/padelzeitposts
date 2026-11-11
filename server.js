@@ -88,10 +88,23 @@ function clean(value, max, multiline = false) {
   return s.trim().slice(0, max);
 }
 
-function sendJson(res, status, data) {
+function sendJson(res, status, data, headers = {}) {
   const body = JSON.stringify(data);
-  res.writeHead(status, { 'Content-Type': MIME['.json'], 'Cache-Control': 'no-store' });
+  res.writeHead(status, { 'Content-Type': MIME['.json'], 'Cache-Control': 'no-store', ...headers });
   res.end(body);
+}
+
+// Name und Geräte-Kennung als Cookies vom Server: Safari löscht localStorage (und per Skript gesetzte Cookies)
+// nach sieben Tagen ohne Besuch – vom Server gesetzte bleiben. 400 Tage, bei jedem Besuch erneuert.
+// Bewusst lesbar für das Skript der Seite (kein HttpOnly): es stellt daraus Name und Kennung wieder her.
+const COOKIE_DAYS = 400;
+
+function identityCookies(req, clientId, name) {
+  const https = String(req.headers['x-forwarded-proto'] || '').split(',')[0].trim() === 'https';
+  const attrs = `; Path=/; Max-Age=${COOKIE_DAYS * 86400}; SameSite=Lax${https ? '; Secure' : ''}`;
+  const cookies = [`pz_client=${encodeURIComponent(clientId)}${attrs}`];
+  if (name) cookies.push(`pz_name=${encodeURIComponent(name)}${attrs}`);
+  return { 'Set-Cookie': cookies };
 }
 
 function readJson(req) {
@@ -181,6 +194,11 @@ async function handleApi(req, res, url) {
 
   const clientId = clean(body.clientId, LIMITS.client);
   const name = clean(body.name, LIMITS.name);
+  // Nur merken, nichts ändern: die Seite meldet sich bei jedem Besuch und nach der Namenseingabe
+  if (url.pathname === '/api/me') {
+    if (!clientId) return sendJson(res, 400, { error: 'Kennung fehlt' });
+    return sendJson(res, 200, { ok: true }, identityCookies(req, clientId, name));
+  }
   if (!clientId || !name) return sendJson(res, 400, { error: 'Name fehlt' });
 
   const postId = String(body.postId || '');
@@ -225,7 +243,7 @@ async function handleApi(req, res, url) {
 
   renameClient(clientId, name);
   scheduleSave();
-  return sendJson(res, 200, stateFor(clientId));
+  return sendJson(res, 200, stateFor(clientId), identityCookies(req, clientId, name));
 }
 
 // ---------- Statische Dateien ----------
@@ -250,11 +268,21 @@ function serveStatic(req, res, url) {
       return;
     }
     const ext = path.extname(file).toLowerCase();
+    // Bilder ändern sich nur mit einem neuen Deploy; Seite und Skripte immer frisch prüfen
+    const cache = ext === '.jpg' ? 'public, max-age=86400' : 'no-cache';
+    // Unverändert? Dann nur „304" statt der ganzen Datei – spart beim Wiederkommen mobiles Datenvolumen
+    const etag = `"${st.size.toString(16)}-${Math.round(st.mtimeMs).toString(16)}"`;
+    // (der Railway-Rand packt Texte selbst und schickt die Kennung dann als „W/…" zurück)
+    const known = String(req.headers['if-none-match'] || '').split(',').map((t) => t.trim().replace(/^W\//, ''));
+    if (known.includes(etag)) {
+      res.writeHead(304, { ETag: etag, 'Cache-Control': cache }).end();
+      return;
+    }
     res.writeHead(200, {
       'Content-Type': MIME[ext] || 'application/octet-stream',
       'Content-Length': st.size,
-      // Bilder ändern sich nur mit einem neuen Deploy; Seite und Skripte immer frisch prüfen
-      'Cache-Control': ext === '.jpg' ? 'public, max-age=86400' : 'no-cache',
+      'Cache-Control': cache,
+      ETag: etag,
     });
     if (req.method === 'HEAD') res.end();
     else fs.createReadStream(file).pipe(res);

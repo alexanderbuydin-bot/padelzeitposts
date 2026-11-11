@@ -47,10 +47,10 @@
   </main>
 
   <div class="sheet" id="name-sheet" hidden>
-    <form class="sheet__card" id="name-form" autocomplete="off">
+    <form class="sheet__card" id="name-form" autocomplete="on">
       <h2>Wie heißt du?</h2>
       <p>Damit alle sehen, wer abgestimmt und kommentiert hat.</p>
-      <input class="sheet__input" id="name-input" maxlength="40" placeholder="Dein Vorname" aria-label="Dein Vorname" enterkeyhint="go">
+      <input class="sheet__input" id="name-input" name="given-name" autocomplete="given-name" autocapitalize="words" maxlength="40" placeholder="Dein Vorname" aria-label="Dein Vorname" enterkeyhint="go">
       <button class="btn btn--primary" type="submit">Los geht’s</button>
       <button class="btn btn--ghost" type="button" id="name-skip">Erst mal nur ansehen</button>
     </form>

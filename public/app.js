@@ -10,6 +10,14 @@
     return node;
   }
 
+  // Ältere Telefone (iOS 12/13) kennen replaceChildren noch nicht
+  if (!Element.prototype.replaceChildren) {
+    Element.prototype.replaceChildren = function replaceChildren(...nodes) {
+      while (this.lastChild) this.removeChild(this.lastChild);
+      this.append(...nodes);
+    };
+  }
+
   const storage = {
     get(key) {
       try { return localStorage.getItem(key); } catch { return null; }
@@ -18,6 +26,12 @@
       try { localStorage.setItem(key, value); } catch { /* privater Modus: dann eben ohne */ }
     },
   };
+
+  function readCookie(name) {
+    const hit = document.cookie.split('; ').find((c) => c.startsWith(`${name}=`));
+    if (!hit) return '';
+    try { return decodeURIComponent(hit.slice(name.length + 1)); } catch { return ''; }
+  }
 
   const SEND_ICON =
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>';
@@ -33,10 +47,22 @@
   const SWIPE_W = 156; // so weit fährt die Karte beim Wischen nach rechts auf
   const POLL_MS = 20000;
 
-  const clientId = storage.get('pz-client') || newId();
-  storage.set('pz-client', clientId);
-  let myName = storage.get('pz-name') || '';
+  // Name und Geräte-Kennung liegen doppelt: im localStorage und in Cookies, die der Server setzt.
+  // Safari löscht localStorage nach sieben Tagen ohne Besuch – vom Server gesetzte Cookies bleiben.
+  const clientId = storage.get('pz-client') || readCookie('pz_client') || newId();
+  let myName = storage.get('pz-name') || readCookie('pz_name') || '';
   let afterName = null; // Aktion, die auf den Namen wartet
+
+  function remember() {
+    storage.set('pz-client', clientId);
+    if (myName) storage.set('pz-name', myName);
+    fetch('/api/me', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ clientId, name: myName }),
+      keepalive: true,
+    }).catch(() => { /* offline – beim nächsten Besuch */ });
+  }
 
   let posts = [];
   let state = {};
@@ -95,20 +121,7 @@
     const track = el('div', 'slides__track');
     track.tabIndex = 0;
     track.setAttribute('aria-label', `Slides: ${post.title}`);
-    post.slides.forEach((s, i) => {
-      const slide = el('div', 'slide');
-      const img = new Image();
-      img.src = s.small;
-      img.srcset = `${s.small} ${s.sw}w, ${s.src} ${s.w}w`;
-      img.sizes = '(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 380px';
-      img.alt = `${post.title} – Slide ${i + 1} von ${total}`;
-      img.loading = i === 0 ? 'eager' : 'lazy';
-      img.decoding = 'async';
-      img.draggable = false;
-      slide.append(img);
-      slide.addEventListener('click', () => openViewer(post, i));
-      track.append(slide);
-    });
+    // Die Slides selbst entstehen erst, wenn die Karte in die Nähe des Bildschirms kommt (mountSlides)
 
     const count = el('span', 'chip chip--count');
     const dots = el('div', 'dots');
@@ -124,23 +137,30 @@
     slides.append(track, count, dots, prev, next);
     if (post.isNew) slides.append(el('span', 'chip chip--new', 'Neu'));
 
-    const sync = () => {
-      const i = index(track);
+    const show = (i) => {
       count.textContent = `${i + 1} / ${total}`;
       [...dots.children].forEach((dot, k) => dot.classList.toggle('is-active', k === i));
       prev.disabled = i === 0;
       next.disabled = i === total - 1;
     };
-    let frame = 0;
+    let pending = 0;
     track.addEventListener('scroll', () => {
-      cancelAnimationFrame(frame);
-      frame = requestAnimationFrame(sync);
+      if (pending) return;
+      pending = setTimeout(() => {
+        pending = 0;
+        const card = cards.get(post.id);
+        if (!card || !card.mounted) return; // ohne Slides gibt es nichts zu zählen
+        const i = index(track);
+        card.slideIndex = i;
+        show(i);
+        loadAround(card, i, card.inView ? 1 : 0);
+      }, 50);
     }, { passive: true });
     track.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowRight') goTo(track, index(track) + 1);
       if (e.key === 'ArrowLeft') goTo(track, index(track) - 1);
     });
-    sync();
+    show(0);
 
     const body = el('div', 'card__body');
     const head = el('div', 'card__head');
@@ -185,10 +205,104 @@
     inner.append(slides, body);
     const actions = el('div', 'card__actions');
     root.append(actions, inner);
-    const card = { post, root, inner, actions, slides, body, verdict, statusLine, yes, no, voters, comments, open: false, shown: '' };
+    const card = {
+      post, root, inner, actions, slides, track, show, body, verdict, statusLine, yes, no, voters, comments,
+      open: false, shown: '', sig: '', mounted: false, inView: false, slideIndex: 0, imgs: [],
+    };
     more.addEventListener('click', () => setOpen(card, !card.open));
     enableSwipe(card);
     return card;
+  }
+
+  // ---------- Nur Karten nahe am Bildschirm tragen Bilder ----------
+  // Früher lagen alle Slides aller Posts gleichzeitig in der Seite (347 Bilder, 64 Wisch-Leisten) – das iPhone
+  // hat den Tab dafür wegen Speichermangel beendet („Es ist wiederholt ein Problem aufgetreten").
+  // Jetzt: nahe Karten bekommen ihre Slides, entfernte geben Bilder und Wisch-Leiste wieder frei.
+
+  const SIZES = '(max-width: 719px) 100vw, (max-width: 1099px) 50vw, 380px';
+
+  function mountSlides(card) {
+    if (card.mounted) return;
+    card.mounted = true;
+    const { post, track } = card;
+    const total = post.slides.length;
+    card.imgs = post.slides.map((s, i) => {
+      const slide = el('div', 'slide');
+      const img = new Image();
+      img.alt = `${post.title} – Slide ${i + 1} von ${total}`;
+      img.decoding = 'async';
+      img.draggable = false;
+      img.sizes = SIZES;
+      slide.append(img);
+      slide.addEventListener('click', () => openViewer(post, i));
+      return img;
+    });
+    track.replaceChildren(...card.imgs.map((img) => img.parentNode));
+    const i = Math.min(card.slideIndex, total - 1);
+    if (i) track.scrollLeft = i * track.clientWidth; // dieselbe Slide wie vor dem Freigeben
+    card.show(i);
+    loadAround(card, i, card.inView ? 1 : 0);
+  }
+
+  function unmountSlides(card) {
+    if (!card.mounted) return;
+    card.mounted = false;
+    for (const img of card.imgs) unload(img);
+    card.imgs = [];
+    card.track.replaceChildren();
+  }
+
+  function unload(img) {
+    img.removeAttribute('srcset');
+    img.removeAttribute('src');
+    delete img.dataset.on;
+  }
+
+  // Aktuelle Slide laden, bei sichtbarer Karte auch die Nachbarn (damit das Wischen sofort ein Bild zeigt);
+  // was weiter als zwei Slides entfernt ist, wird wieder freigegeben.
+  function loadAround(card, i, reach) {
+    card.imgs.forEach((img, k) => {
+      const far = Math.abs(k - i);
+      if (far <= reach && !img.dataset.on) {
+        const s = card.post.slides[k];
+        img.dataset.on = '1';
+        img.srcset = `${s.small} ${s.sw}w, ${s.src} ${s.w}w`;
+        img.src = s.small;
+      } else if (far > 2 && img.dataset.on) unload(img);
+    });
+  }
+
+  // Bewusst über die Lage der Karten gerechnet (beim Scrollen und einmal je Sekunde) statt mit einem
+  // IntersectionObserver: der meldet sich nur, solange der Browser Bilder zeichnet – in einem Hintergrund-Tab
+  // oder einer eingebetteten Ansicht blieben die Karten sonst leer.
+  function scan() {
+    const h = window.innerHeight || document.documentElement.clientHeight;
+    for (const card of cards.values()) {
+      const r = card.root.getBoundingClientRect();
+      if (!r.width && !r.height) { // nicht dargestellt (zugeklappter Papierkorb)
+        card.inView = false;
+        unmountSlides(card);
+        continue;
+      }
+      card.inView = r.bottom > 0 && r.top < h;
+      // nah (eine Bildschirmhöhe darüber, anderthalb darunter): Slides anlegen, aktuelles Bild laden
+      if (r.bottom > -h && r.top < 2.5 * h) mountSlides(card);
+      // sichtbar: Nachbar-Slides vorladen
+      if (card.inView) loadAround(card, card.slideIndex, 1);
+      // weit weg: alles freigeben (größerer Abstand als beim Anlegen, damit es am Rand nicht flackert)
+      if (r.bottom < -2.5 * h || r.top > 4 * h) unmountSlides(card);
+    }
+  }
+
+  let scanTimer = 0;
+  let lastScan = 0;
+  function scheduleScan() {
+    if (scanTimer) return;
+    scanTimer = setTimeout(() => {
+      scanTimer = 0;
+      lastScan = Date.now();
+      scan();
+    }, Math.max(0, 80 - (Date.now() - lastScan)));
   }
 
   // ---------- Wischen: gepostet / löschen ----------
@@ -311,6 +425,7 @@
     $('#posted-count').textContent = counts.posted;
     $('#trash').hidden = !counts.deleted;
     $('#trash-count').textContent = counts.deleted;
+    scheduleScan(); // Karten können den Platz gewechselt haben
   }
 
   function navButton(kind, label, aria, onClick) {
@@ -436,6 +551,10 @@
         return file;
       }));
       job.files.catch(() => photoJobs.delete(post.id));
+      // geladene Fotos nicht ewig im Speicher halten: nach drei Minuten wieder freigeben
+      job.files.then(() => setTimeout(() => {
+        if (photoJobs.get(post.id) === job) photoJobs.delete(post.id);
+      }, 180000), () => {});
       photoJobs.set(post.id, job);
     }
     return job;
@@ -527,6 +646,12 @@
     const card = cards.get(postId);
     const s = state[postId] || EMPTY;
 
+    // Der Abruf alle 20 s bringt meist nichts Neues – dann die 64 Karten nicht jedes Mal neu aufbauen.
+    // Nur bei Karten nahe am Bildschirm laufen die Zeitangaben („vor 5 Minuten") weiter.
+    const sig = JSON.stringify(s);
+    if (card.sig === sig && !card.mounted) return;
+    card.sig = sig;
+
     for (const [part, list, value] of [[card.yes, s.yes, 1], [card.no, s.no, -1]]) {
       part.count.textContent = list.length;
       part.count.hidden = list.length === 0;
@@ -599,7 +724,15 @@
     $('#me-avatar').textContent = myName ? myName.charAt(0).toUpperCase() : '?';
   }
 
-  const relative = new Intl.RelativeTimeFormat('de', { numeric: 'auto' });
+  const relative = (() => {
+    try {
+      return new Intl.RelativeTimeFormat('de', { numeric: 'auto' });
+    } catch {
+      // ältere Telefone: schlichte Fassung
+      const words = { minute: 'Min.', hour: 'Std.', day: 'Tagen' };
+      return { format: (n, unit) => `vor ${Math.abs(n)} ${words[unit]}` };
+    }
+  })();
 
   function ago(ts) {
     const sec = Math.round((ts - Date.now()) / 1000);
@@ -693,7 +826,7 @@
     }
     const renamed = myName && myName !== value;
     myName = value;
-    storage.set('pz-name', value);
+    remember();
     updateMe();
     const next = afterName;
     closeNameSheet();
@@ -712,12 +845,14 @@
   const viewer = $('#viewer');
   const viewerTrack = $('#viewer-track');
 
+  let viewerPost = null;
+
   function openViewer(post, start) {
+    viewerPost = post;
     $('#viewer-title').textContent = post.title;
     viewerTrack.replaceChildren(...post.slides.map((s, i) => {
       const slide = el('div', 'viewer__slide');
       const img = new Image();
-      img.src = s.src;
       img.alt = `${post.title} – Slide ${i + 1} von ${post.slides.length}`;
       img.decoding = 'async';
       slide.append(img);
@@ -735,19 +870,36 @@
     if (viewer.hidden) return;
     viewer.hidden = true;
     document.documentElement.classList.remove('lock');
+    [...viewerTrack.children].forEach((slide) => slide.firstChild.removeAttribute('src'));
     viewerTrack.replaceChildren();
+    viewerPost = null;
     if (!fromHistory) history.back();
   }
 
   function syncViewer() {
+    if (!viewerPost) return;
     const total = viewerTrack.children.length;
     const i = index(viewerTrack);
     $('#viewer-count').textContent = `${i + 1} / ${total}`;
     $('#viewer-prev').disabled = i === 0;
     $('#viewer-next').disabled = i === total - 1;
+    // große Fassung nur für die gezeigte Slide und ihre Nachbarn; was weiter weg ist, wieder freigeben
+    [...viewerTrack.children].forEach((slide, k) => {
+      const img = slide.firstChild;
+      const far = Math.abs(k - i);
+      if (far <= 1 && !img.getAttribute('src')) img.src = viewerPost.slides[k].src;
+      else if (far > 2 && img.getAttribute('src')) img.removeAttribute('src');
+    });
   }
 
-  viewerTrack.addEventListener('scroll', () => requestAnimationFrame(syncViewer), { passive: true });
+  let viewerPending = 0;
+  viewerTrack.addEventListener('scroll', () => {
+    if (viewerPending) return;
+    viewerPending = setTimeout(() => {
+      viewerPending = 0;
+      syncViewer();
+    }, 50);
+  }, { passive: true });
   $('#viewer-close').addEventListener('click', () => closeViewer(false));
   $('#viewer-prev').addEventListener('click', () => goTo(viewerTrack, index(viewerTrack) - 1));
   $('#viewer-next').addEventListener('click', () => goTo(viewerTrack, index(viewerTrack) + 1));
@@ -814,12 +966,18 @@
       grid.append(card.root);
       updateCard(post.id);
     }
+    window.addEventListener('scroll', scheduleScan, { passive: true });
+    window.addEventListener('resize', scheduleScan);
+    $('#trash').addEventListener('toggle', scheduleScan);
+    setInterval(() => { if (!document.hidden) scheduleScan(); }, 1000);
+    scan();
     document.addEventListener('pointerdown', (e) => {
       if (openCard && !openCard.root.contains(e.target)) setOpen(openCard, false);
     });
     $('#loading').remove();
     updateMe();
     updateProgress();
+    remember(); // Cookies auffrischen und localStorage wiederherstellen, falls Safari ihn geleert hat
     if (!myName) openNameSheet();
     await refresh();
     setInterval(() => { if (!document.hidden) refresh(); }, POLL_MS);
